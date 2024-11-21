@@ -1,1 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
+body{
+    background-color: grey;
+}
+
+/* basic typeface base styles ------------------------------------------------------- */
+
+* {
+    font-family: "Comic Neue", cursive;
+    color: white;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h1 {
+    border: 2px solid white;
+    padding: 15px 40px;
+    border-radius: 10px;
+} 
+
+h2 {
+    color: #a9899b;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+p, label, ul, li {
+    font-size: 15.5px;
+}
+
+a {
+    color: #a9899b;
+    font-weight: 400;
+}
+
+/* base styles by section ------------------------------------------------------- */
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    padding: 10px 20px;
+    font-size: 15px;
+    color: white;
+    background-color: grey;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+nav a:hover {
+    box-shadow: 7px 7px 5px #100d0f;
+    background-color: #a56f8e;
+}
+
+article {
+    padding: 0px 40px;
+}
+
+button:hover {
+    box-shadow: 7px 7px 5px #100d0f;
+    background-color: #a56f8e;
+    color: white;
+    cursor: pointer;
+}
+
+/* container boxes for h2 section headings */
+.heading-box {
+    border: 1px solid #100d0f;
+    background-color: #251f22;
+    border-radius: 8px;
+    padding: 0px 15px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+/* basic purple box for each section */
+.box-container {
+    display: flex;
+    margin: 0px 40px 0px 30px;
+    padding: 40px 30px;
+    border-radius: 10px;
+    background-color: #2a2326;
+    box-shadow: 15px 15px #100d0f;
+}
+
+footer, footer p {
+    flex-direction: column;
+    text-align: center;
+    line-height: 5px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+/* circle for tooltip anchor link thingy */
+
+.circle {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #a9899b;
+    color: black;
+    text-align: center;
+  }
+
+  .circle:hover {
+    box-shadow: 7px 7px 5px #100d0f;
+    background-color: #a56f8e;
+    color: white;
+    cursor: pointer;
+}
