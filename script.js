@@ -57,12 +57,12 @@ function calculateNightfall() {
       seconds++;
     }
     // generate text with calculate results
-    resultText = `It would take ${seconds} seconds to charge Nightfall<br />
+    resultText = `it would take ${seconds} seconds to charge nightfall<br />
     ${remnantCharges} charges from teleporting to your remnant<br />
     ${attackCharges} charges from landing attacks on survivors<br />
     ${hookCharges} charges from hooking survivors<br />
     ${lockerCharges.toFixed(2)} charges per second spend in lockers<br />
-    ${injuredCharges.toFixed(2)} charges per second that survivors spent injured`;
+    ${injuredCharges.toFixed(2)} charges per second for every survivor currently injured`;
   }
 
   // display result
