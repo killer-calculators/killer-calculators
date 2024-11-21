@@ -61,8 +61,10 @@ function calculateNightfall() {
     ${remnantCharges} charges from teleporting to your remnant<br />
     ${attackCharges} charges from landing attacks on survivors<br />
     ${hookCharges} charges from hooking survivors<br />
-    ${lockerCharges.toFixed(2)} charges per second spend in lockers<br />
-    ${injuredCharges.toFixed(2)} charges per second for every survivor currently injured`;
+    ${lockerCharges.toFixed(
+      2
+    )} charges per second from time spent in lockers / teleporting to lockers<br />
+    ${injuredCharges.toFixed(2)} charges per second for every survivor actively injured`;
   }
 
   // display result

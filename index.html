@@ -34,60 +34,62 @@ date: 01 Nov 2024 -->
       <!-- match and add-ons forms section -->
       <section class="forms-container">
         <!-- match data form section -->
-        <form id="match-form" class="box-container">
-          <div class="heading-box">
-            <h2>things that happened</h2>
-            <a href="#about-calculator"> <div class="circle">?</div></a>
-          </div>
-          <div class="custom-number-input">
-            <label for="teleports">number of remnant <br />teleports performed</label>
-            <div class="number-input">
-              <button type="button" onclick="decrementValue('teleports')">−</button>
-              <input type="number" id="teleports" value="0" min="0" />
-              <button type="button" onclick="incrementValue('teleports')">+</button>
+          
+          <form id="match-form" class="box-container">
+            <div class="heading-box">
+              <h2>things that happened</h2>
+              <a href="#about-calculator"> <div class="circle">?</div></a>
             </div>
-          </div>
-          <div class="custom-number-input">
-            <label for="attacks">number of successful attacks</label>
-            <div class="number-input">
-              <button type="button" onclick="decrementValue('attacks')">−</button>
-              <input type="number" id="attacks" value="0" min="0" />
-              <button type="button" onclick="incrementValue('attacks')">+</button>
+            <div class="custom-number-input">
+              <label for="teleports">number of remnant <br />teleports performed</label>
+              <div class="number-input">
+                <button type="button" onclick="decrementValue('teleports')">−</button>
+                <input type="number" id="teleports" value="0" min="0" />
+                <button type="button" onclick="incrementValue('teleports')">+</button>
+              </div>
             </div>
-          </div>
-          <div class="custom-number-input">
-            <label for="attacks">number of survivors hooked</label>
-            <div class="number-input">
-              <button type="button" onclick="decrementValue('hooks')">−</button>
-              <input type="number" id="hooks" value="0" min="0" />
-              <button type="button" onclick="incrementValue('hooks')">+</button>
+            <div class="custom-number-input">
+              <label for="attacks">number of successful attacks</label>
+              <div class="number-input">
+                <button type="button" onclick="decrementValue('attacks')">−</button>
+                <input type="number" id="attacks" value="0" min="0" />
+                <button type="button" onclick="incrementValue('attacks')">+</button>
+              </div>
             </div>
-          </div>
-          <div class="custom-number-input">
-            <label for="locker-time"
-              >seconds spent in lockers <br />
-              or teleporting to lockers</label
-            >
-            <div class="number-input">
-              <button type="button" onclick="decrementValue('locker-time')">−</button>
-              <input type="number" id="locker-time" value="0" min="0" />
-              <button type="button" onclick="incrementValue('locker-time')">+</button>
+            <div class="custom-number-input">
+              <label for="attacks">number of survivors hooked</label>
+              <div class="number-input">
+                <button type="button" onclick="decrementValue('hooks')">−</button>
+                <input type="number" id="hooks" value="0" min="0" />
+                <button type="button" onclick="incrementValue('hooks')">+</button>
+              </div>
             </div>
-          </div>
-          <div class="custom-number-input">
-            <label for="attacks"
-              >number of survivors actively <br />injured and not healing</label
-            >
-            <div class="number-input">
-              <button type="button" onclick="decrementValue('injured')">−</button>
-              <input type="number" id="injured" value="0" min="0" />
-              <button type="button" onclick="incrementValue('injured')">+</button>
+            <div class="custom-number-input">
+              <label for="locker-time"
+                >seconds spent in lockers <br />
+                or teleporting to lockers</label
+              >
+              <div class="number-input">
+                <button type="button" onclick="decrementValue('locker-time')">−</button>
+                <input type="number" id="locker-time" value="0" min="0" />
+                <button type="button" onclick="incrementValue('locker-time')">+</button>
+              </div>
             </div>
-          </div>
-          <div class="match-button">
-            <button type="button" onclick="resetMatchData()">reset</button>
-          </div>
-        </form>
+            <div class="custom-number-input">
+              <label for="attacks"
+                >number of survivors actively <br />injured and not healing</label
+              >
+              <div class="number-input">
+                <button type="button" onclick="decrementValue('injured')">−</button>
+                <input type="number" id="injured" value="0" min="0" />
+                <button type="button" onclick="incrementValue('injured')">+</button>
+              </div>
+            </div>
+            <div class="match-button">
+              <button type="button" onclick="resetMatchData()">reset</button>
+            </div>
+          </form>
+        </div>
 
         <!-- add-ons section -->
         <form id="addon-form" class="box-container">
