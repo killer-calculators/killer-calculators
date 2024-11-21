@@ -21,7 +21,7 @@ h1 {
 
 h2 {
     color: #a9899b;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 20px;
 }
 
@@ -31,7 +31,7 @@ h3 {
 }
 
 p, label, ul, li {
-    font-size: 15.5px;
+    font-size: 16px;
 }
 
 a {
@@ -90,7 +90,7 @@ button:hover {
 
 /* container boxes for h2 section headings */
 .heading-box {
-    border: 1px solid #100d0f;
+    border: 1px solid white;
     background-color: #251f22;
     border-radius: 8px;
     padding: 0px 15px;
