@@ -7,113 +7,112 @@
     <link rel="stylesheet" href="./styles/base-styles.css" />
     <link rel="stylesheet" href="./styles/haunting-styles.css" />
   </head>
-  <body>
-    <main>
-      <header>
-        <h1>the spirit's haunting calculator</h1>
 
-        <nav>
+  <body>
+    <header class="page-header">
+      <div>
+        <img src="./images/spirit_img.png" alt="The Spirit" />
+      </div>
+      <div class="header-container">
+        <h1>the spirit's haunting calculator</h1>
+        <nav class="page-nav">
+          <a href="./index.html">home</a>
           <a href="./nightfall-calculator.html">dredge's nightfall calculator</a>
           <a href="./haunting-calculator.html">spirit's haunting calculator</a>
         </nav>
-      </header>
+      </div>
+    </header>
+    <section class="main-container">
+      <!-- results section -->
+      <div class="box-container results-container">
+        <div class="heading-box"><h2>the numbers</h2></div>
+        <table class="results-table">
+          <tr>
+            <td class="caption">haunting movement speed:</td>
+            <td class="numbers">
+              <span id="movement-speed" class="big data"></span> m/s
+            </td>
+          </tr>
+          <tr>
+            <td class="caption">max haunting recharge time:</td>
+            <td class="numbers"><span id="recharge-time" class="big data"></span> s</td>
+          </tr>
+          <tr>
+            <td class="caption">max haunting travel distance:</td>
+            <td class="numbers"><span id="max-distance" class="big data"></span> m</td>
+          </tr>
+          <tr>
+            <td class="caption">max haunting duration:</td>
+            <td class="numbers"><span id="max-duration" class="big data"></span> s</td>
+          </tr>
+          <tr>
+            <td class="caption">haunting activation time:</td>
+            <td class="numbers"><span id="activation-time" class="big data"></span> s</td>
+          </tr>
+        </table>
+      </div>
 
-      <section class="main-container">
-        <!-- results section -->
-        <article class="box-container results-container">
-          <div>
-            <img src="./images/spirit_img.png" alt="The Spirit" />
-          </div>
-          <div class="results-column">
-            <div class="heading-box"><h2>the numbers</h2></div>
-            <table class="results-table">
-              <tr>
-                <td class="caption">haunting movement speed:</td>
-                <td class="numbers">
-                  <span id="movement-speed" class="big data"></span> m/s
-                </td>
-              </tr>
-              <tr>
-                <td class="caption">max haunting recharge time:</td>
-                <td class="numbers">
-                  <span id="recharge-time" class="big data"></span> s
-                </td>
-              </tr>
-              <tr>
-                <td class="caption">max haunting travel distance:</td>
-                <td class="numbers">
-                  <span id="max-distance" class="big data"></span> m
-                </td>
-              </tr>
-              <tr>
-                <td class="caption">max haunting duration:</td>
-                <td class="numbers">
-                  <span id="max-duration" class="big data"></span> s
-                </td>
-              </tr>
-              <tr>
-                <td class="caption">haunting activation time:</td>
-                <td class="numbers">
-                  <span id="activation-time" class="big data"></span> s
-                </td>
-              </tr>
-            </table>
-          </div>
-        </article>
+      <form id="addon-form" class="box-container">
+        <div class="heading-box"><h2>add-ons</h2></div>
 
-        <form id="addon-form" class="box-container">
-          <div class="heading-box"><h2>add-ons</h2></div>
+        <select name="addon1" id="addon1" class="select">
+          <option value="none">select add-on</option>
+          <optgroup label="movement speed increase">
+            <option value="ring">mother-daughter ring</option>
+            <option value="cap">muddy sports day cap</option>
+            <option value="zori">zōri</option>
+          </optgroup>
+          <optgroup label="recharge speed increase">
+            <option value="flute">rusty flute</option>
+            <option value="watch">rin's broken watch</option>
+            <option value="crane">origami crane</option>
+          </optgroup>
+          <optgroup label="duration increase">
+            <option value="yakuyoke">yakuyoke amulet</option>
+            <option value="talisman">kaiun talisman</option>
+            <option value="shiawase">shiawase amulet</option>
+          </optgroup>
+          <optgroup label="activation speed increase ">
+            <option value="ribbon">white hair ribbon</option>
+            <option value="comb">gifted bamboo comb</option>
+          </optgroup>
+        </select>
 
-          <select name="addon1" id="addon1" class="select">
-            <option value="none">select add-on</option>
-            <optgroup label="movement speed increase">
-              <option value="ring">mother-daughter ring</option>
-              <option value="cap">muddy sports day cap</option>
-              <option value="zori">zōri</option>
-            </optgroup>
-            <optgroup label="recharge speed increase">
-              <option value="flute">rusty flute</option>
-              <option value="watch">rin's broken watch</option>
-              <option value="crane">origami crane</option>
-            </optgroup>
-            <optgroup label="duration increase">
-              <option value="yakuyoke">yakuyoke amulet</option>
-              <option value="talisman">kaiun talisman</option>
-              <option value="shiawase">shiawase amulet</option>
-            </optgroup>
-            <optgroup label="activation speed increase ">
-              <option value="ribbon">white hair ribbon</option>
-              <option value="comb">gifted bamboo comb</option>
-            </optgroup>
-          </select>
+        <select name="addon2" id="addon2" class="select">
+          <option value="none">select add-on</option>
+          <optgroup label="movement speed increase">
+            <option value="ring">mother-daughter ring</option>
+            <option value="cap">muddy sports day cap</option>
+            <option value="zori">zōri</option>
+          </optgroup>
+          <optgroup label="recharge speed increase">
+            <option value="flute">rusty flute</option>
+            <option value="watch">rin's broken watch</option>
+            <option value="crane">origami crane</option>
+          </optgroup>
+          <optgroup label="duration increase">
+            <option value="yakuyoke">yakuyoke amulet</option>
+            <option value="talisman">kaiun talisman</option>
+            <option value="shiawase">shiawase amulet</option>
+          </optgroup>
+          <optgroup label="activation speed increase ">
+            <option value="ribbon">white hair ribbon</option>
+            <option value="comb">gifted bamboo comb</option>
+          </optgroup>
+        </select>
+        <div class="reset-button">
+          <button type="button" onclick="resetAddOns()">reset</button>
+        </div>
+      </form>
+    </section>
 
-          <select name="addon2" id="addon2" class="select">
-            <option value="none">select add-on</option>
-            <optgroup label="movement speed increase">
-              <option value="ring">mother-daughter ring</option>
-              <option value="cap">muddy sports day cap</option>
-              <option value="zori">zōri</option>
-            </optgroup>
-            <optgroup label="recharge speed increase">
-              <option value="flute">rusty flute</option>
-              <option value="watch">rin's broken watch</option>
-              <option value="crane">origami crane</option>
-            </optgroup>
-            <optgroup label="duration increase">
-              <option value="yakuyoke">yakuyoke amulet</option>
-              <option value="talisman">kaiun talisman</option>
-              <option value="shiawase">shiawase amulet</option>
-            </optgroup>
-            <optgroup label="activation speed increase ">
-              <option value="ribbon">white hair ribbon</option>
-              <option value="comb">gifted bamboo comb</option>
-            </optgroup>
-          </select>
-        </form>
-      </section>
-
-      <section class="descriptions-container box-container">
-        <div class="heading-box"><h2>add-on descriptions</h2></div>
+    <section class="descriptions-container box-container">
+      <div class="heading-box"><h2>the spirit's (relevant) add-ons</h2></div>
+      <article>
+        <p class="note">
+          Note: as of patch 7.1.0, add-ons that increase haunting duration also
+          proportionately increase haunting recharge time.
+        </p>
         <table class="addon-table">
           <tr>
             <td class="pink-icon"><img src="./images/ring.png" alt="" /></td>
@@ -195,41 +194,39 @@
             </td>
           </tr>
         </table>
-      </section>
+      </article>
+    </section>
 
-      <footer>
-        <p>
-          images sourced from:
-          <a
-            href="https://deadbydaylight.fandom.com/wiki/Dead_by_Daylight_Wiki"
-            target="_blank">
-            deadbydaylight.fandom.com/wiki/Dead_by_Daylight_Wiki
-          </a>
-        </p>
-        <p
-          xmlns:cc="http://creativecommons.org/ns#"
-          xmlns:dct="http://purl.org/dc/terms/">
-          <span property="dct:title">Dredge Nightfall Calculator</span> by
-          <span property="cc:attributionName">Campbell Kramer</span> is licensed under
-          <a
-            href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1"
-            target="_blank"
-            rel="license noopener noreferrer"
-            style="display: inline-block">
-            CC BY 4.0
-          </a>
-        </p>
-        <p>
-          Follow me on instagram
-          <a href="https://www.instagram.com/gorgeous_iphone/" target="_blank"
-            >@gorgeous_iphone
-          </a>
-          or twitter
-          <a href="https://x.com/gorgeous_iphone" target="_blank">@gorgeous_iphone</a>
-          if you want
-        </p>
-      </footer>
-    </main>
+    <footer>
+      <p>
+        image source:
+        <a
+          href="https://deadbydaylight.fandom.com/wiki/Dead_by_Daylight_Wiki"
+          target="_blank">
+          deadbydaylight.fandom.com/wiki/Dead_by_Daylight_Wiki
+        </a>
+      </p>
+      <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+        <span class="bold" property="dct:title">DBD Killer Calculators</span> by
+        <span property="cc:attributionName">Campbell Kramer</span> is licensed under
+        <a
+          href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1"
+          target="_blank"
+          rel="license noopener noreferrer"
+          style="display: inline-block">
+          CC BY 4.0
+        </a>
+      </p>
+      <p>
+        follow me on instagram
+        <a href="https://www.instagram.com/gorgeous_iphone/" target="_blank"
+          >@gorgeous_iphone
+        </a>
+        or twitter
+        <a href="https://x.com/gorgeous_iphone" target="_blank">@gorgeous_iphone</a>
+        if you want
+      </p>
+    </footer>
     <script src="./scripts/haunting-script.js"></script>
   </body>
 </html>
