@@ -22,5 +22,9 @@ h1 {
 
 footer {
     position: absolute;
+    width: 70%;
     bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0px;
 }
