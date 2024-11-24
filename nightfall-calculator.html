@@ -1,0 +1,277 @@
+<!-- title: Dredge Nightfall Calculator
+author: Campbell Kramer
+date: 01 Nov 2024 -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dredge Nightfall Charges Calculator</title>
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css" /> -->
+    <link rel="stylesheet" href="./styles/base-styles.css" />
+    <link rel="stylesheet" href="./styles/nightfall-styles.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>the dredge's nightfall calculator</h1>
+
+        <nav>
+          <a href="./nightfall-calculator.html">dredge's nightfall calculator</a>
+          <a href="./haunting-calculator.html">spirit's haunting calculator</a>
+        </nav>
+      </header>
+
+      <!-- results section -->
+      <section class="results-container box-container">
+        <div><img src="./images/dredge_img.png" alt="The Dredge" /></div>
+        <div id="results"></div>
+      </section>
+
+      <!-- match and add-ons forms section -->
+      <section class="forms-container">
+        <!-- match data form section -->
+
+        <form id="match-form" class="box-container">
+          <div class="heading-box">
+            <h2>things that happened</h2>
+            <a href="#about-calculator"> <div class="circle">?</div></a>
+          </div>
+          <div class="custom-number-input">
+            <label for="teleports">number of remnant <br />teleports performed</label>
+            <div class="number-input">
+              <button type="button" onclick="decrementValue('teleports')">−</button>
+              <input type="number" id="teleports" value="0" min="0" />
+              <button type="button" onclick="incrementValue('teleports')">+</button>
+            </div>
+          </div>
+          <div class="custom-number-input">
+            <label for="attacks">number of successful attacks</label>
+            <div class="number-input">
+              <button type="button" onclick="decrementValue('attacks')">−</button>
+              <input type="number" id="attacks" value="0" min="0" />
+              <button type="button" onclick="incrementValue('attacks')">+</button>
+            </div>
+          </div>
+          <div class="custom-number-input">
+            <label for="attacks">number of survivors hooked</label>
+            <div class="number-input">
+              <button type="button" onclick="decrementValue('hooks')">−</button>
+              <input type="number" id="hooks" value="0" min="0" />
+              <button type="button" onclick="incrementValue('hooks')">+</button>
+            </div>
+          </div>
+          <div class="custom-number-input">
+            <label for="locker-time"
+              >seconds spent in lockers <br />
+              or teleporting to lockers</label
+            >
+            <div class="number-input">
+              <button type="button" onclick="decrementValue('locker-time')">−</button>
+              <input type="number" id="locker-time" value="0" min="0" />
+              <button type="button" onclick="incrementValue('locker-time')">+</button>
+            </div>
+          </div>
+          <div class="custom-number-input">
+            <label for="attacks"
+              >number of survivors actively <br />injured and not healing</label
+            >
+            <div class="number-input">
+              <button type="button" onclick="decrementValue('injured')">−</button>
+              <input type="number" id="injured" value="0" min="0" />
+              <button type="button" onclick="incrementValue('injured')">+</button>
+            </div>
+          </div>
+          <div class="match-button">
+            <button type="button" onclick="resetMatchData()">reset</button>
+          </div>
+        </form>
+
+        <!-- add-ons section -->
+        <form id="addon-form" class="box-container">
+          <div class="heading-box"><h2>add-ons</h2></div>
+          <div class="switch-line">
+            <div>
+              <label class="switch">
+                <input type="checkbox" id="wooden-plank" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+            <p>wooden plank</p>
+          </div>
+          <div class="switch-line">
+            <div>
+              <label class="switch">
+                <input type="checkbox" id="burnt-letters" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+            <p>burnt letters</p>
+          </div>
+          <div class="switch-line">
+            <div>
+              <label class="switch">
+                <input type="checkbox" id="fallen-shingle" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+            <p>fallen shingle</p>
+          </div>
+          <div class="switch-line">
+            <div>
+              <label class="switch">
+                <input type="checkbox" id="malthinkers-skull" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+            <p>malthinker's skull</p>
+          </div>
+
+          <div class="addon-button">
+            <button type="button" onclick="resetAddOns()">reset</button>
+          </div>
+        </form>
+      </section>
+
+      <!-- explanation about the details of Nightfall -->
+      <section id="about-nightfall" class="descriptions-container box-container">
+        <div class="heading-box"><h2>about nightfall charge math</h2></div>
+        <article>
+          <h3>The Dredge needs to gain 300 Nightfall charges to activate Nightfall</h3>
+          <p>You gain Nightfall charges through several different means:</p>
+          <ul>
+            <li>You passively gain 0.25 charges every second</li>
+            <li>Every time you teleport to your remnant you gain 10 charges</li>
+            <li>
+              Every time you land a successful attack on a survivor you gain 20 charges
+            </li>
+            <li>Every time you hook a survivor you gain 20 charges</li>
+            <li>
+              While inside a locker, or while teleporting to a locker, gain 6 additional
+              charges per second
+              <ul>
+                <li class="note">
+                  Note: Contrary to popular belief, teleporting to a locker
+                  <i>does not</i> count as a "Remnant teleport"—you <b>do not</b> gain 10
+                  charges per locker teleport. It is purely based on
+                  <i>time spent</i> teleporting to lockers. Technically this
+                  <i>does</i> mean that more charges are generated the farther away the
+                  locker is
+                </li>
+              </ul>
+            </li>
+            <li>
+              For every survivor that is currently injured, gain an additional 1 charge
+              per second
+            </li>
+          </ul>
+          <p>
+            4 different add-ons affect how quickly The Dredge can gain Nightfall charges:
+          </p>
+          <table class="addon-table">
+            <tr>
+              <td class="brown-icon"><img src="./images/woodenPlank.png" alt="" /></td>
+              <td>
+                Wooden Plank<br />
+                Increases the charges added to the Nightfall meter for hooking survivors
+                by +25%
+              </td>
+            </tr>
+            <tr>
+              <td class="yellow-icon"><img src="./images/burntLetters.png" alt="" /></td>
+              <td>
+                Burnt Letters<br />
+                Increases the charges added to the Nightfall meter for injuring survivors
+                by +25%
+              </td>
+            </tr>
+            <tr>
+              <td class="yellow-icon"><img src="./images/fallenShingle.png" alt="" /></td>
+              <td>
+                Fallen Shingle<br />
+                increases the charge rate of the Nightfall meter while teleporting to
+                lockers or while remaining inside lockers by +15% per second
+              </td>
+            </tr>
+            <tr>
+              <td class="yellow-icon">
+                <img src="./images/malthinkersSkull.png" alt="" />
+              </td>
+              <td>
+                Malthinker's Skull<br />
+                Increases the charge rate of the Nightfall meter while survivors are
+                injured by +25% per second
+              </td>
+            </tr>
+          </table>
+        </article>
+      </section>
+
+      <!-- explanation of the intentions/goals/limitations of this calculator -->
+      <section class="about-calculator box-container" id="about-calculator">
+        <div class="heading-box">
+          <div class="circle">?</div>
+          <h2>notes on this calculator, limitations, etc.</h2>
+        </div>
+
+        <article>
+          <p>
+            Think about the "things that happened" sections as like... events and actions
+            that occured during a certain short period of time while trying to charge
+            nightfall.
+          </p>
+          <p>
+            Basically I made this site because I wanted to test out and compare how
+            different combinations of add-ons and in-game actions affect the charge speed
+            of nightfall.
+          </p>
+          <p>
+            It should be noted that the calculations might not perfectly translate to any
+            given in-game scenario. For example, if an attack is landed on a survivor 60
+            seconds after nightfall started charging, while the flat 20 charges will still
+            apply, the injury will only contribute to the "survivors currently injured"
+            charges per second for a portion of the time.
+          </p>
+        </article>
+      </section>
+
+      <!-- footer thing with sources and credits and license -->
+      <footer>
+        <p>
+          images sourced from:
+          <a
+            href="https://deadbydaylight.fandom.com/wiki/Dead_by_Daylight_Wiki"
+            target="_blank">
+            deadbydaylight.fandom.com/wiki/Dead_by_Daylight_Wiki
+          </a>
+        </p>
+        <p
+          xmlns:cc="http://creativecommons.org/ns#"
+          xmlns:dct="http://purl.org/dc/terms/">
+          <span property="dct:title">Dredge Nightfall Calculator</span> by
+          <span property="cc:attributionName">Campbell Kramer</span> is licensed under
+          <a
+            href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1"
+            target="_blank"
+            rel="license noopener noreferrer"
+            style="display: inline-block"
+            >CC BY 4.0</a
+          >
+        </p>
+        <p>
+          Follow me on instagram
+          <a href="https://www.instagram.com/gorgeous_iphone/" target="_blank"
+            >@gorgeous_iphone</a
+          >
+          or twitter
+          <a href="https://x.com/gorgeous_iphone" target="_blank">@gorgeous_iphone</a>
+          if you want
+        </p>
+      </footer>
+    </main>
+    <script src="./scripts/nightfall-script.js"></script>
+  </body>
+</html>
