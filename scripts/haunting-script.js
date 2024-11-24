@@ -88,6 +88,12 @@ function getActivationTime(addons) {
   return 1.5 - 1.5 * activationModifier;
 }
 
+// reset button
+function resetAddOns() {
+  document.getElementById("addon-form").reset();
+  main();
+}
+
 // Event listeners to update variables when select tags change
 select1.addEventListener("change", () => {
   main();

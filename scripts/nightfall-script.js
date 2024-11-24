@@ -28,6 +28,8 @@ function calculateNightfall() {
   let hooks = parseInt(document.getElementById("hooks").value) || 0;
   let lockerTime = parseInt(document.getElementById("locker-time").value) || 0;
   let injured = parseInt(document.getElementById("injured").value) || 0;
+  let injuredChargesTotal = 0;
+  let seconds = 0;
 
   // calculate charges
   let remnantCharges = teleports * CHARGES_PER_TELEPORT;
@@ -51,32 +53,21 @@ function calculateNightfall() {
     resultText = "Nightfall is already charged from match activity alone!";
   } else {
     // calculate the time required to reach Nightfall charge
-    let seconds = 0;
-    let injuredChargesTotal = 0;
     while (charges < NIGHTFALL_CHARGES_REQ) {
       injuredChargesTotal += injuredCharges;
       charges += BASE_CHARGE_PER_SEC + injuredCharges;
       seconds++;
     }
-    // generate text with calculate results
-    resultText = `it would take 
-    <span class="data">${seconds}</span> 
-    seconds to charge nightfall<br /><hr>
-    <span class="big data">${remnantCharges}</span> 
-    charges from teleporting to your remnant<br />
-    <span class="big data">${attackCharges}</span> 
-    charges from landing attacks on survivors<br />
-    <span class="big data">${hookCharges}</span> 
-    charges from hooking survivors<br />
-    <span class="big data">${lockerCharges.toFixed(2)}</span> 
-    charges from time spent in lockers / 
-    teleporting to lockers<br />
-    <span class="big data">${injuredChargesTotal.toFixed(2)}</span> 
-    charges per second for every survivor actively injured`;
   }
-
+  injuredChargesTotal = injuredChargesTotal.toFixed(2);
+  lockerCharges = lockerCharges.toFixed(2);
   // display result
-  document.getElementById("results").innerHTML = `<p>${resultText}</p>`;
+  document.getElementById("nightfall-time").innerHTML = `${seconds}`;
+  document.getElementById("remnant-charges").innerHTML = `${remnantCharges}`;
+  document.getElementById("attacks-charges").innerHTML = `${attackCharges}`;
+  document.getElementById("hook-charges").innerHTML = `${hookCharges}`;
+  document.getElementById("locker-charges").innerHTML = `${lockerCharges}`;
+  document.getElementById("injured-charges").innerHTML = `${injuredChargesTotal}`;
 }
 
 // function for match data reset button
