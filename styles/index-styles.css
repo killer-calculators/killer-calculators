@@ -1,16 +1,26 @@
 nav .fake-link {
-    padding: 10px 20px;
-    font-size: 15px;
-    color: white;
-    border: 1px solid white;
-    border-radius: 4px;
-    box-sizing: border-box;
+    background-color: rgb(96, 96, 96);
+    cursor: auto;
 }
 
-.home-nav {
-    flex-direction: column;
+.home-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
 }
 
 h1 {
-    margin-bottom: 50px;
+    padding: 15px 40px;
+}
+
+.home-nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
 }

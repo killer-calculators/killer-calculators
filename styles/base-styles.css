@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
-body{
+body {
     background-color: rgb(96, 96, 96);
 }
 
@@ -15,8 +15,9 @@ body{
 
 h1 {
     border: 2px solid white;
-    padding: 15px 40px;
+    padding: 15px 0px;
     border-radius: 10px;
+    text-align: center;
 } 
 
 h2 {
@@ -52,28 +53,26 @@ a {
     font-weight: 700;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 /* base styles by section ------------------------------------------------------- */
 
-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
-
-nav {
+.page-header {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    margin-bottom: 30px;
+    height: 180px;
 }
 
-nav a {
+.page-nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a, nav .fake-link {
     padding: 10px 20px;
     font-size: 15px;
     color: white;
@@ -81,7 +80,6 @@ nav a {
     border: 1px solid white;
     border-radius: 4px;
     cursor: pointer;
-    box-sizing: border-box;
     text-decoration: none;
 }
 
@@ -91,21 +89,40 @@ nav a:hover {
 }
 
 article {
+    display: flex;
     padding: 0px 40px;
+    flex-direction: column;
 }
 
 button:hover {
     box-shadow: 7px 7px 5px #100d0f;
     background-color: #a56f8e;
-    color: white;
     cursor: pointer;
+}
+
+.reset-button button {
+    box-sizing: border-box;
+    margin-top: 10px;
+    padding: 0px 30px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: white;
+    background-color: #a9899b;
+    border: none;
+    border-radius: 10px;
+}
+
+.reset-button button:hover {
+    background-color: #a56f8e;
 }
 
 /* container boxes for h2 section headings */
 .heading-box {
     border: 1px solid white;
     border-radius: 8px;
-    padding: 0px 15px;
+    padding: 0px 25px;
     box-sizing: border-box;
     margin-bottom: 30px;
 }
@@ -113,10 +130,11 @@ button:hover {
 /* basic purple box for each section */
 .box-container {
     display: flex;
-    margin: 0px 40px 0px 30px;
+    margin: 0px 15px 20px 15px;
     padding: 40px 30px;
     border-radius: 10px;
     border: 2px solid white;
+    background-color: rgb(96, 96, 96);
 }
 
 footer {

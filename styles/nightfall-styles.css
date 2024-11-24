@@ -1,26 +1,39 @@
-.results-container{
+header img {
+    height: auto;
+    width: 150px;
+    margin: 20px 15px -0px 0px;
+}
+
+/* dredge jumpscare upon hovering over img */
+header img:hover {
+    transform: scale(1.5,1.5);
+  }
+
+/* .header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.results-container {
     justify-content: center;
     gap: 80px;
     align-items: center;
 }
 
-.results-container img {
-    width: auto;
-    height: 150px;
-    flex-grow: 1;
-    margin: 0px 0px;
+.results {
+    display: flex;
+    flex-direction: column;
 }
 
-/* dredge jumpscare upon hovering over img */
-.results-container img:hover {
-    transform: scale(1.5,1.5);
-  }
+.results-firstline {
+    margin-bottom: 20px;
+}
 
-#results p::first-line {
-    font-size: 20px;
-    line-height: 40px;
-    font-weight: 400;
-  }
+.results p {
+    margin: 10px 0px;
+    line-height: 14px;
+}
 
 hr {
     margin-top: -20px;
@@ -29,24 +42,6 @@ hr {
 .forms-container {
     display: flex;
     flex-wrap: wrap;
-}
-
-.match-button button, .addon-button button {
-    box-sizing: border-box;
-    margin-top: 10px;
-    padding: 0px 30px;
-    height: 40px;
-    font-size: 20px;
-    font-weight: 300;
-    color: black;
-    background-color: #a9899b;
-    border: none;
-    border-radius: 4px;
-}
-
-.match-button button:hover, .addon-button button:hover {
-    background-color: #a56f8e;
-    color: white;
 }
 
 /* match details form section ------------------------------------------------------- */
