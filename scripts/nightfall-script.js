@@ -42,6 +42,7 @@ function calculateNightfall() {
   let lockerCharges = hasFallenShingle
     ? lockerTime * LOCKER_CHARGE_PER_SEC * SHINGLE_MODIFIER
     : lockerTime * LOCKER_CHARGE_PER_SEC;
+  lockerCharges = Math.round(lockerCharges * 100) / 100;
   let injuredCharges = hasMalthinkersSkull ? injured * SKULL_MODIFIER : injured;
 
   // calculate initial charges
@@ -61,13 +62,12 @@ function calculateNightfall() {
     }
 
     let passiveCharges = seconds * BASE_CHARGE_PER_SEC;
-    passiveCharges = passiveCharges.toFixed(2);
 
     if (charges > NIGHTFALL_CHARGES_REQ) {
       let difference = charges - NIGHTFALL_CHARGES_REQ;
       injuredChargesTotal -= difference;
     }
-    injuredChargesTotal = injuredChargesTotal.toFixed(2);
+    injuredChargesTotal = Math.round(injuredChargesTotal * 100) / 100;
 
     resultText = `it would take <span class="big data">${seconds}</span> seconds to
           charge nightfall`;
