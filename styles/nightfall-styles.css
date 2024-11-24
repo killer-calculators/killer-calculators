@@ -19,12 +19,12 @@ header img:hover {
     text-align: left;
 }
 
-.results-firstline {
-    margin-bottom: 20px;
+.results h3 {
+    text-underline-offset: 6px;
 }
 
 .results p {
-    margin: 20px 0px;
+    margin: 10px 0px 0px 30px;
     line-height: 14px;
 }
 
