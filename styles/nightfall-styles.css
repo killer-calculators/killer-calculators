@@ -1,6 +1,7 @@
 .results-container{
     justify-content: center;
     gap: 80px;
+    align-items: center;
 }
 
 .results-container img {
