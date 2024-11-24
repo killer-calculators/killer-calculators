@@ -39,6 +39,19 @@ a {
     font-weight: 400;
 }
 
+.data {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.big {
+    font-size: 20px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
 /* base styles by section ------------------------------------------------------- */
 
 header {
@@ -108,12 +121,22 @@ button:hover {
     box-shadow: 15px 15px #100d0f;
 }
 
+footer {
+    border: 2px solid white;
+    padding: 15px 40px;
+    border-radius: 10px;
+    margin: 0px 70px;
+}
+
 footer, footer p {
     flex-direction: column;
     text-align: center;
-    line-height: 5px;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 300;
+}
+
+footer a {
+    color: #2a2326;
 }
 
 /* circle for tooltip anchor link thingy */
@@ -136,4 +159,40 @@ footer, footer p {
     background-color: #a56f8e;
     color: white;
     cursor: pointer;
+}
+
+/* base styles for add-on description tables ------------------------------------------------------- */
+
+.addon-table {
+    margin: 10px 0px 10px 20px;
+}
+
+.descriptions-container td::first-line {
+    font-weight: 700;
+}
+
+.brown-icon img{
+    background-color: rgb(95, 75, 60);
+}
+
+.yellow-icon img{
+    background-color: rgb(195, 164, 73)
+}
+
+.green-icon img{
+    background-color: rgb(72, 129, 55)
+}
+
+.purple-icon img{
+    background-color: rgb(109, 57, 125);
+}
+
+.pink-icon img {
+    background-color: rgb(187, 46, 77)
+}
+
+.addon-table img {
+    height: 60px;
+    width: auto;
+    border: 3px solid black;
 }
