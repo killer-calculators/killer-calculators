@@ -1,0 +1,16 @@
+nav .fake-link {
+    padding: 10px 20px;
+    font-size: 15px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.home-nav {
+    flex-direction: column;
+}
+
+h1 {
+    margin-bottom: 50px;
+}
