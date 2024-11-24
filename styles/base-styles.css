@@ -129,8 +129,7 @@ button:hover {
 
 /* basic purple box for each section */
 .box-container {
-    display: flex;
-    margin: 0px 15px 20px 15px;
+    margin: 0px 20px 15px 20px;
     padding: 40px 30px;
     border-radius: 10px;
     border: 2px solid white;
@@ -139,14 +138,11 @@ button:hover {
 
 footer {
     border: 2px solid white;
-    padding: 15px 40px;
+    padding: 10px 40px;
     border-radius: 10px;
     margin: 0px 70px;
-}
-
-footer, footer p {
-    flex-direction: column;
     text-align: center;
+    justify-content: center;
     font-size: 16px;
     font-weight: 300;
 }
