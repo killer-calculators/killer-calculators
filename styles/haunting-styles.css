@@ -16,7 +16,7 @@ header img:hover {
     display: flex;
     font-size: 18px;
     flex-direction: column;
-    flex-grow: 1;
+    flex-grow: 2;
     justify-content: center;
     text-align: right;
 }
@@ -41,25 +41,19 @@ header img:hover {
     gap: 10px;
 } 
 
-#addon-form .heading-box {
-    margin-bottom: 12px;
+#addon-form .subheading {
+    margin-bottom: -10px;
 }
 
 select {
     color: white;
     background-color: #a9899b;
-    width: auto;
+    width: 80%;
     height: 45px;
     padding-left: 5px;
-    margin-left: 20px;
-    margin-right: 20px;
     font-weight: 700;
     font-size: 16px;
     border-radius: 10px;
-}
-
-.reset-button {
-    margin-left: 20px;
 }
 
 .descriptions-container {
