@@ -23,7 +23,7 @@ h1 {
 h2 {
     color: #d0b4c4;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 p, label, ul, li {
@@ -117,7 +117,7 @@ button:hover {
 .heading-box {
     border: 1px solid white;
     border-radius: 8px;
-    padding: 0px 25px;
+    padding: 0px 10px;
     box-sizing: border-box;
     margin-bottom: 30px;
 }
@@ -125,7 +125,7 @@ button:hover {
 /* basic purple box for each section */
 .box-container {
     margin: 0px 20px 15px 20px;
-    padding: 40px 30px;
+    padding: 15px 30px 30px 30px;
     border-radius: 10px;
     border: 2px solid white;
     background-color: rgb(67, 64, 65);
@@ -133,9 +133,9 @@ button:hover {
 
 footer {
     border: 2px solid white;
-    padding: 10px 40px;
+    padding: 8px 40px;
     border-radius: 10px;
-    margin: 0px 70px;
+    margin: 80px 70px 0px 70px;
     text-align: center;
     font-size: 16px;
     font-weight: 300;

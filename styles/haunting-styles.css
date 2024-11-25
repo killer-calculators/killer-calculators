@@ -14,7 +14,7 @@ header img:hover {
 
 .results-container {
     display: flex;
-    font-size: 20px;
+    font-size: 18px;
     flex-direction: column;
     flex-grow: 1;
     justify-content: center;
@@ -22,7 +22,7 @@ header img:hover {
 }
 
 .results-table td {
-    padding: 10px 6px;
+    padding: 8px 6px;
 }
 
 .caption {
@@ -43,7 +43,6 @@ header img:hover {
 
 #addon-form .heading-box {
     margin-bottom: 12px;
-    height: 55px;
 }
 
 select {
@@ -66,6 +65,10 @@ select {
 .descriptions-container {
     display: flex;
     flex-direction: column;
+}
+
+.descriptions-container .heading-box {
+    margin-top: 20px;
 }
 
 .note {

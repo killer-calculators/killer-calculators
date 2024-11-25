@@ -17,6 +17,9 @@ header img:hover {
 .results {
     width: auto;
     text-align: left;
+    /* border-radius: 0px;
+    border: none;
+    padding-top: 0px; */
 }
 
 .results h3 {
@@ -42,15 +45,24 @@ header img:hover {
     text-align: right;
 }
 
-#match-form .heading-box {
+#addon-form .subheading {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+#match-form .subheading {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
     gap: 10px;
+    margin-bottom: 8px;
 }
 
-.heading-box a {
+.tooltip {
     text-decoration: none;
 }
 
@@ -58,7 +70,7 @@ header img:hover {
     display: flex;
     justify-content: right;
     align-items: center;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
     gap: 10px;
 }
 
@@ -139,25 +151,37 @@ input[type="number"]::-webkit-inner-spin-button {
 
 /* about nightfall charges section ------------------------------------------------------- */
 
-.about-calculator {
-    display: flex;
-    flex-direction: column;
-}
-
-.about-calculator .heading-box {
+#power-descriptions .heading-box {
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-top: 20px;
 }
 
-.descriptions-container {
-    flex-direction: column;
+
+#power-descriptions .circle:hover, #about-calculator .circle:hover {
+    box-shadow:none;
+    background-color: #a9899b;
+    color: black;
+    cursor: default;
+  }
+
+#about-calculator .heading-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
 }
 
 .note {
     font-size: 14px;
     margin-left: -30px;
     list-style-type: none;
+}
+
+.about-calculator {
+    display: flex;
+    flex-direction: column;
 }
 
 /* custom switches ------------------------------------------------------- */
