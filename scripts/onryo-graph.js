@@ -66,8 +66,8 @@ function drawLingeringGraph() {
 function drawDemanifestedGraph() {
   let counter = 0;
   let maxTime = 6;
-  let counterMax = hasWatch ? 29 : 26;
   hasWatch = watchCheckbox.checked();
+  let counterMax = hasWatch ? 29 : 26;
   invisMax = counterMax - 15;
   let timeIncrement = 0.1;
   let yVis = height - 140;
@@ -215,8 +215,6 @@ function drawDot(x, y, size) {
 
 function resetGraphs() {
   clear();
-  timeIncrement = 0.25; // Reset the time
-  counter = 0; // Reset the counter
   setupGraph1();
   setupGraph2();
   loop(); // Restart the draw loop
