@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap'); */
+@font-face {
+    font-family: "National Park";
+    src: url("NationalPark-VariableVF.ttf") format("truetype");
+    }
 
 body {
     background-color: rgb(67, 64, 65);
@@ -7,7 +11,7 @@ body {
 /* basic typeface base styles ------------------------------------------------------- */
 
 * {
-    font-family: "Comic Neue", cursive;
+    font-family: "National Park";
     color: white;
     font-weight: 300;
     font-style: normal;
