@@ -149,7 +149,7 @@ function setupGraph1() {
   pop();
   push();
   textSize(14);
-  text("seconds", 400, 245);
+  text("timeline (seconds)", 400, 245);
   pop();
 }
 
@@ -208,6 +208,6 @@ function setupGraph2() {
   pop();
   push();
   textSize(14);
-  text("seconds", 400, height - 35);
+  text("timeline (seconds", 400, height - 35);
   pop();
 }
