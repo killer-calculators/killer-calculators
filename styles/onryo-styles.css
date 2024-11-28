@@ -16,13 +16,17 @@ header img:hover {
 .add-ons {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 40px;
 }
 
 .switch-box {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.switch-box p {
+    margin-top: 5px;
 }
 
 figure {
