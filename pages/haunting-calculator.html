@@ -9,20 +9,17 @@
   </head>
 
   <body>
-    <header class="page-header">
-      <div>
-        <img src="../images/spirit_img.png" alt="The Spirit" />
-      </div>
-      <div class="header-container">
-        <h1>the spirit's haunting calculator</h1>
-        <nav class="page-nav">
-          <a href="../index.html">home</a>
-          <a href="./nightfall-calculator.html">dredge's nightfall calculator</a>
-          <a href="./haunting-calculator.html">spirit's haunting calculator</a>
-          <a href="./onryo-calculator.html">onryo's invisibility calculator</a>
-        </nav>
-      </div>
+    <header class="header-container">
+      <img src="../images/spirit_img.png" alt="The Spirit" />
+      <div class="h1-box"><h1>the spirit's haunting calculator</h1></div>
     </header>
+    <nav class="page-nav">
+      <a href="../index.html">home</a>
+      <a href="./nightfall-calculator.html">dredge's nightfall calculator</a>
+      <a href="./haunting-calculator.html">spirit's haunting calculator</a>
+      <a href="./onryo-calculator.html">onryo's invisibility calculator</a>
+      <a href="./build-calculator.html">killer build calculator</a>
+    </nav>
 
     <section class="main-container">
       <!-- results section -->
@@ -31,24 +28,28 @@
           <tr>
             <td class="caption">haunting movement speed:</td>
             <td class="numbers">
-              <span id="movement-speed" class="big data"></span> m/s
+              <span id="movement-speed" class="bold spaced"></span> m/s
             </td>
           </tr>
           <tr>
             <td class="caption">max haunting recharge time:</td>
-            <td class="numbers"><span id="recharge-time" class="big data"></span> s</td>
+            <td class="numbers">
+              <span id="recharge-time" class="bold spaced"></span> s
+            </td>
           </tr>
           <tr>
             <td class="caption">max haunting travel distance:</td>
-            <td class="numbers"><span id="max-distance" class="big data"></span> m</td>
+            <td class="numbers"><span id="max-distance" class="bold spaced"></span> m</td>
           </tr>
           <tr>
             <td class="caption">max haunting duration:</td>
-            <td class="numbers"><span id="max-duration" class="big data"></span> s</td>
+            <td class="numbers"><span id="max-duration" class="bold spaced"></span> s</td>
           </tr>
           <tr>
             <td class="caption">haunting activation time:</td>
-            <td class="numbers"><span id="activation-time" class="big data"></span> s</td>
+            <td class="numbers">
+              <span id="activation-time" class="bold spaced"></span> s
+            </td>
           </tr>
         </table>
       </div>
@@ -107,126 +108,132 @@
       </form>
     </section>
 
-    <section class="descriptions-container box-container">
+    <article class="article-container box-container">
       <div class="heading-box"><h2>the spirit's (relevant) add-ons</h2></div>
-      <article>
-        <p class="note">
-          Note: as of patch 7.1.0, add-ons that increase haunting duration also
-          proportionately increase haunting recharge time.
-        </p>
-        <table class="addon-table">
-          <tr>
-            <td class="pink-icon"><img src="../images/ring.png" alt="" /></td>
-            <td>
-              Mother-Daughter Ring<br />
-              Increases your movement speed while phasing by 25%<br />
-              Scratch marks are no longer visible while phasing
-            </td>
-          </tr>
-          <tr>
-            <td class="purple-icon"><img src="../images/yakuyoke.png" alt="" /></td>
-            <td>
-              Yakuyoke Amulet<br />
-              Increases the duration of Haunting by +3.5 seconds<br />
-              Reduces your movement speed while phasing by 15%
-            </td>
-          </tr>
-          <tr>
-            <td class="green-icon"><img src="../images/flute.png" alt="" /></td>
-            <td>
-              Rusty Flute<br />
-              Increases the recharge rate of Haunting by 40%
-            </td>
-          </tr>
-          <tr>
-            <td class="yellow-icon"><img src="../images/ribbon.png" alt="" /></td>
-            <td>
-              White Hair Ribbon<br />
-              Increases the activation speed of Haunting by 20%
-            </td>
-          </tr>
-          <tr>
-            <td class="yellow-icon"><img src="../images/watch.png" alt="" /></td>
-            <td>
-              Rin's Broken Watch<br />
-              Increases the recharge rate of Haunting by 30%
-            </td>
-          </tr>
-          <tr>
-            <td class="yellow-icon"><img src="../images/cap.png" alt="" /></td>
-            <td>
-              Muddy Sports Day Cap<br />
-              Increases your movement speed while phasing by 10%
-            </td>
-          </tr>
-          <tr>
-            <td class="yellow-icon"><img src="../images/talisman.png" alt="" /></td>
-            <td>
-              Kaiun Talisman<br />
-              Increases the duration of phasing by 1 second
-            </td>
-          </tr>
-          <tr>
-            <td class="brown-icon"><img src="../images/zori.png" alt="" /></td>
-            <td>
-              Zōri<br />
-              Increases your movement speed while phasing by 5%
-            </td>
-          </tr>
-          <tr>
-            <td class="brown-icon"><img src="../images/shiawase.png" alt="" /></td>
-            <td>
-              Shiawase Amulet<br />
-              Increases the duration of phasing by 0.5 seconds
-            </td>
-          </tr>
-          <tr>
-            <td class="brown-icon"><img src="../images/crane.png" alt="" /></td>
-            <td>
-              Origami Crane<br />
-              Increases the recharge rate of Haunting by 20%
-            </td>
-          </tr>
-          <tr>
-            <td class="brown-icon"><img src="../images/comb.png" alt="" /></td>
-            <td>
-              Gifted Bamboo Comb<br />
-              Increases the activation speed of Haunting by 15%
-            </td>
-          </tr>
-        </table>
-      </article>
-    </section>
+      <div class="article-body">
+        <div>
+          <p>
+            <span class="bold">Note:</span> As of patch 7.1.0, add-ons that increase
+            haunting duration also proportionately increase haunting recharge time.
+          </p>
+          <table class="addon-table">
+            <tr>
+              <td class="pink-icon"><img src="../images/ring.png" alt="" /></td>
+              <td>
+                Mother-Daughter Ring<br />
+                Increases your movement speed while phasing by 25% Scratch marks are no
+                longer visible while phasing
+              </td>
+            </tr>
+            <tr>
+              <td class="purple-icon"><img src="../images/yakuyoke.png" alt="" /></td>
+              <td>
+                Yakuyoke Amulet<br />
+                Increases the duration of Haunting by +3.5 seconds Reduces your movement
+                speed while phasing by 15%
+              </td>
+            </tr>
+            <tr>
+              <td class="green-icon"><img src="../images/flute.png" alt="" /></td>
+              <td>
+                Rusty Flute<br />
+                Increases the recharge rate of Haunting by 40%
+              </td>
+            </tr>
+            <tr>
+              <td class="yellow-icon"><img src="../images/ribbon.png" alt="" /></td>
+              <td>
+                White Hair Ribbon<br />
+                Increases the activation speed of Haunting by 20%
+              </td>
+            </tr>
+            <tr>
+              <td class="yellow-icon"><img src="../images/watch.png" alt="" /></td>
+              <td>
+                Rin's Broken Watch<br />
+                Increases the recharge rate of Haunting by 30%
+              </td>
+            </tr>
+            <tr>
+              <td class="yellow-icon"><img src="../images/cap.png" alt="" /></td>
+              <td>
+                Muddy Sports Day Cap<br />
+                Increases your movement speed while phasing by 10%
+              </td>
+            </tr>
+            <tr>
+              <td class="yellow-icon"><img src="../images/talisman.png" alt="" /></td>
+              <td>
+                Kaiun Talisman<br />
+                Increases the duration of phasing by 1 second
+              </td>
+            </tr>
+            <tr>
+              <td class="brown-icon"><img src="../images/zori.png" alt="" /></td>
+              <td>
+                Zōri<br />
+                Increases your movement speed while phasing by 5%
+              </td>
+            </tr>
+            <tr>
+              <td class="brown-icon"><img src="../images/shiawase.png" alt="" /></td>
+              <td>
+                Shiawase Amulet<br />
+                Increases the duration of phasing by 0.5 seconds
+              </td>
+            </tr>
+            <tr>
+              <td class="brown-icon"><img src="../images/crane.png" alt="" /></td>
+              <td>
+                Origami Crane<br />
+                Increases the recharge rate of Haunting by 20%
+              </td>
+            </tr>
+            <tr>
+              <td class="brown-icon"><img src="../images/comb.png" alt="" /></td>
+              <td>
+                Gifted Bamboo Comb<br />
+                Increases the activation speed of Haunting by 15%
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </article>
 
     <footer>
-      <p>
-        image source:
-        <a
-          href="https://deadbydaylight.fandom.com/wiki/Dead_by_Daylight_Wiki"
-          target="_blank">
-          deadbydaylight.fandom.com/wiki/Dead_by_Daylight_Wiki
-        </a>
-      </p>
-      <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
-        <span class="bold" property="dct:title">DBD Killer Calculators</span> by
-        <span property="cc:attributionName">Campbell Kramer</span> is licensed under
-        <a
-          href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1"
-          target="_blank"
-          rel="license noopener noreferrer"
-          style="display: inline-block">
-          CC BY 4.0
-        </a>
-      </p>
-      <p>
-        follow me on instagram
-        <a href="https://www.instagram.com/gorgeous_iphone/" target="_blank"
-          >@gorgeous_iphone
-        </a>
-        or twitter
-        <a href="https://x.com/gorgeous_iphone" target="_blank">@gorgeous_iphone</a>
-        if you want
-      </p>
+      <div class="footer-container">
+        <p>
+          image source:
+          <a
+            href="https://deadbydaylight.fandom.com/wiki/Dead_by_Daylight_Wiki"
+            target="_blank">
+            deadbydaylight.fandom.com/wiki/Dead_by_Daylight_Wiki
+          </a>
+        </p>
+        <p
+          xmlns:cc="http://creativecommons.org/ns#"
+          xmlns:dct="http://purl.org/dc/terms/">
+          <span class="bold" property="dct:title">DBD Killer Calculators</span> by
+          <span property="cc:attributionName">Campbell Kramer</span> is licensed under
+          <a
+            href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1"
+            target="_blank"
+            rel="license noopener noreferrer"
+            style="display: inline-block">
+            CC BY 4.0
+          </a>
+        </p>
+        <p>
+          follow me on instagram
+          <a href="https://www.instagram.com/gorgeous_iphone/" target="_blank"
+            >@gorgeous_iphone
+          </a>
+          or twitter
+          <a href="https://x.com/gorgeous_iphone" target="_blank">@gorgeous_iphone</a>
+          if you want
+        </p>
+      </div>
     </footer>
     <script src="../scripts/haunting-script.js"></script>
   </body>
