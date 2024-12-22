@@ -1,0 +1,97 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* PerkSelector Styles */
+.perk-selector-container {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.perk-selector-container h2 {
+  margin-left: 10px;
+}
+
+.build-box-container {
+  border-radius: 10px;
+  border: 2px solid white;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 30px 30px;
+}
+
+.perk-container {
+  margin: 20px 0px;
+}
+
+select {
+  color: white;
+  background-color: #2a2326;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #d5d5d5;
+  margin-left: 8px;
+}
+
+select:focus {
+  outline: none;
+}
+
+select:hover {
+  background-color: #a56f8e;
+  box-shadow: 7px 7px 5px #100d0f;
+}
+
+.perk-description {
+  border-radius: 10px;
+  color: black;
+  background-color: #d5d5d5;
+  padding: 28px 6px 12px 6px;
+  margin-top: -22px;
+  margin-left: -6px;
+  margin-right: -6px;
+  font-size: 0.95em;
+  font-style: italic;
+}
+
+/* StatDisplay Styles */
+.stat-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: #2a2326;
+}
+
+.stat-list-container h2 {
+  margin-left: 16px;
+}
+
+.stat-item {
+  padding: 10px;
+  border: 1px transparent #ddd;
+  border-radius: 10px;
+  background-color: rgb(67, 64, 65);
+  margin: 0px 10px;
+}
+
+.condition {
+  font-style: italic;
+}
+
+.stat-modifier {
+  margin-top: 5px;
+  list-style-type: none;
+  padding-left: 15px;
+}
+
+.stat-modifier li {
+  margin-bottom: 5px;
+  font-size: 0.9em;
+}

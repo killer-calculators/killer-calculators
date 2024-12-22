@@ -1,72 +1,60 @@
-header img {
-    width: 150px;
-    height: auto;
-    margin: -10px 15px 0px 0px;
-}
-
-header img:hover {
-    transform: scale(1.5,1.5);
-}
-
 .main-container {
-    display: flex;
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  max-width: 1000px;
 }
 
 .results-container {
-    display: flex;
-    font-size: 18px;
-    flex-direction: column;
-    flex-grow: 2;
-    justify-content: center;
-    text-align: right;
+  display: flex;
+  font-size: 18px;
+  flex-direction: column;
+  flex-grow: 2;
+  justify-content: center;
+  text-align: right;
 }
 
 .results-table td {
-    padding: 8px 6px;
+  padding: 8px 6px;
 }
 
 .caption {
-    text-align: right;
+  text-align: right;
 }
 
 .numbers {
-    width: 90px;
-    text-align: left;
+  width: 90px;
+  text-align: left;
 }
 
 #addon-form {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    gap: 10px;
-} 
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 10px;
+}
 
 #addon-form .subheading {
-    margin-bottom: -10px;
+  margin-bottom: -10px;
 }
 
 select {
-    color: white;
-    background-color: #a9899b;
-    width: 80%;
-    height: 45px;
-    padding-left: 5px;
-    font-weight: 700;
-    font-size: 16px;
-    border-radius: 10px;
+  color: white;
+  background-color: #2a2326;
+  width: fit-content;
+  height: 45px;
+  padding-left: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #d5d5d5;
 }
 
-.descriptions-container {
-    display: flex;
-    flex-direction: column;
+select:focus {
+  outline: none;
 }
 
-.descriptions-container .heading-box {
-    margin-top: 20px;
-}
-
-.note {
-    margin-left: 40px;
-    margin-right: 40px;
-    font-weight: 500;
+select:hover {
+  background-color: #a56f8e;
+  box-shadow: 7px 7px 5px #100d0f;
 }
