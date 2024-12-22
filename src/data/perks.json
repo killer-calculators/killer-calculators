@@ -1,0 +1,764 @@
+{
+  "perks": [
+    {
+      "perkName": "A Nurse's Calling",
+      "description": "The auras of Survivors who are healing or being healed are revealed to you within 20/24/28 metres."
+    },
+    {
+      "perkName": "Agitation",
+      "modifiers": {
+        "carryingMovement": {
+          "modifier": 0.18
+        }
+      },
+      "description": "When carrying a Survivor, you benefit from the following effects:\nIncreases your Movement speed by 6/12/18 %.\nIncreases your Terror Radius by +12 metres."
+    },
+    {
+      "perkName": "Alien Instinct",
+      "description": "Whenever you hook a survivor, Alien Instinct activates:\nThe aura of the farthest injured survivor is revealed to you for 5 seconds.\nThat survivor suffers from the oblivious status effect for 16/18/20 seconds."
+    },
+    {
+      "perkName": "All-Shaking Thunder",
+      "modifiers": {
+        "lunge": {
+          "modifier": 0.75,
+          "condition": "For 16 seconds after falling from a height"
+        }
+      },
+      "description": "After falling from a height, All-Shaking Thunder activates for 8/12/16 seconds:\nIncreases the range of your Lunge Attack by +75 %.\nAll-Shaking Thunder has a cool-down of 5 seconds."
+    },
+    {
+      "perkName": "Awakened Awareness",
+      "description": "While carrying a Survivor, you benefit from the following effect:\nThe auras of all survivors within 16/18/20 metres of your location are revealed to you."
+    },
+    {
+      "perkName": "Bamboozle",
+      "modifiers": {
+        "vaulting": {
+          "modifier": -0.15
+        }
+      },
+      "description": "After vaulting a window, Bamboozle calls upon the Entity to block that Window for the next 8/12/16 seconds.\nBlocked windows cannot be vaulted by Survivors.\nIncreases your general vaulting speed by 5/10/15 %.\nBamboozle only blocks one window at a time and does not apply either of its effects to vaulting pallets."
+    },
+    {
+      "perkName": "Barbecue & Chilli",
+      "description": "After hooking a survivor, all survivors who are at least 60/50/40 metres away from that hook have their auras revealed to you for 5 seconds."
+    },
+    {
+      "perkName": "Batteries Included",
+      "modifiers": {
+        "movementSpeed": {
+          "modifier": 0.05,
+          "condition": "While within 12 metres of a completed generator"
+        }
+      },
+      "description": "Whenever you are within 12 metres of a completed generators, you are granted a +5 % haste status effect.\nThis effect lingers for 1/3/5 second(s) after leaving the generator's range."
+    },
+    {
+      "perkName": "Beast of Prey",
+      "description": "Upon gaining the Bloodlust, Beast of Prey activates:\nGrants the undetectable for as long as Bloodlust is active.\nBeast of Prey grants 30/40/50 % bonus Bloodpoints for actions in the Hunter Category.\nThe bonus Bloodpoints are only awarded during the Trial."
+    },
+    {
+      "perkName": "Bitter Murmur",
+      "description": "Each time a generators is completed, the auras of all survivors within 16 metres of that generator are revealed to you for 5 seconds.\nOnce the last generator is completed, the auras of all survivors are revealed to you for 5/7/10 seconds."
+    },
+    {
+      "perkName": "Blood Echo",
+      "description": "Whenever you hook a survivor, all other injured survivors suffer from the Exhausted and Haemorrhage status effects for 20/25/30 seconds."
+    },
+    {
+      "perkName": "Blood Warden",
+      "description": "As soon as one exit gate is opened, Blood Warden activates. The auras of survivors standing within the exit gate area are revealed to you. Once per trial, hooking a survivor while Blood Warden is active calls upon the Entity to block the exits for all Survivors for 40/50/60 seconds."
+    },
+    {
+      "perkName": "Bloodhound",
+      "description": "Pools of blood are shown in bright red and can be tracked for 2/3/4 seconds longer than normal."
+    },
+    {
+      "perkName": "Brutal Strength",
+      "modifiers": {
+        "breaking": {
+          "modifier": -0.2
+        }
+      },
+      "description": "Increases the action speed for breaking breakable walls and dropped pallets, and damaging generators by 10/15/20 %."
+    },
+    {
+      "perkName": "Call of Brine",
+      "modifiers": {
+        "genRegressionSpeed": {
+          "modifier": 0.25,
+          "condition": "For 60 seconds after kicking a generator."
+        }
+      },
+      "description": "After performing the damage generator action on a generator, Call of Brine activates for 60 seconds. The damaged generator regresses at 115/120/125 % of the normal regression speed and its aura is highlighted to you in yellow. Receive a loud noise notification each time a survivor hits a good skill check on the affected Generator."
+    },
+    {
+      "perkName": "Corrupt Intervention",
+      "description": "At the start of the Trial, the 3 Generators located farthest from you are blocked by The Entity for 80/100/120 seconds. Corrupt Intervention deactivates prematurely once the first Survivor is put into the Dying State."
+    },
+    {
+      "perkName": "Coulrophobia",
+      "modifiers": {
+        "healingTime": {
+          "modifier": 0.5,
+          "condition": "While Survivors are within your Terror Radius."
+        }
+      },
+      "description": "For all Survivors within your Terror Radius the following effects apply:\nReduces their Healing speed by 30/40/50 %.\nIncreases the Rotation speed of Healing Skill Checks by +50 %."
+    },
+    {
+      "perkName": "Coup de Gr\u00e2ce",
+      "modifiers": {
+        "lunge": {
+          "modifier": 0.8,
+          "condition": "If you have Coup de Gr\u00e2ce tokens."
+        }
+      },
+      "description": "Whenever a Generator is completed,  gains +2 Tokens, up to a maximum of 10 Tokens per Trial:\nIncreases the range of your next Lunge Attack by 70/75/80 %, while consuming -1 Token.\nCoup de Gr\u00e2ce can only hold a maximum of 5 Tokens at a time."
+    },
+    {
+      "perkName": "Cruel Limits",
+      "description": "Whenever a Generator is completed, Cruel Limits activates:\nBlocks every Vault location on the Map for all Survivors for the next 20/25/30 seconds.\nThe Auras of the blocked Vault locations are highlighted to you in yellow."
+    },
+    {
+      "perkName": "Dark Arrogance",
+      "modifiers": {
+        "palletStun": {
+          "modifier": 0.25
+        },
+        "vaulting": {
+          "modifier": -0.25
+        }
+      },
+      "description": "Increases your Vaulting speed in exchange for increased vulnerability to being blinded and stunned:\nPermanently increases the duration of Killer Blinds by any means and the duration of Pallet Stuns by +25%.\nPermanently increases your Vaulting speed by 15/20/25%."
+    },
+    {
+      "perkName": "Dark Devotion",
+      "description": "Whenever the Obsession loses a Health State by any means and thus enters the Injured State, Dark Devotion activates:\nYour Terror Radius transfers to the Obsession for 20/25/30 seconds, and its radius is set to 32 metres.\nGrants the Undetectable Status Effect for the same duration.\nThe Obsession with your transferred Terror Radius is also considered to be 'inside the Terror Radius' for other purposes.\nYou can only be obsessed with one Survivor at a time."
+    },
+    {
+      "perkName": "Darkness Revealed",
+      "description": "Searching a Locker has the following effect:\nThe Auras of Survivors within 8 metres of any Locker are revealed to you for 6/7/8 seconds.\nDarkness Revealed has a cool-down of 30 seconds."
+    },
+    {
+      "perkName": "Dead Man's Switch",
+      "description": "After hooking a Survivor, Dead Man's Switch activates:\nBlocks the first Generator any Survivor stops repairing for 40/45/50 seconds.\nThe Blocked Generator is highlighted to you in white.\nDead Man's Switch cannot activate if its effect is still active from a previous activation."
+    },
+    {
+      "perkName": "Deadlock",
+      "description": "Whenever a Generator is completed, The Entity blocks the Generator with the most progression for 15/20/25 seconds.\nThe Aura of the blocked Generator is revealed to you in white during this time."
+    },
+    {
+      "perkName": "Deathbound",
+      "description": "Whenever a Survivor finishes healing another Survivor for the equivalent of 1 Health State, Deathbound activates:\nCauses the Healer to scream and reveal their location.\nCauses the Healer to suffer from the Oblivious Status Effect whenever they are farther than 16/12/8 metres from the other Survivor.\nDeathbound deactivates after the Healer loses a Health State."
+    },
+    {
+      "perkName": "Deerstalker",
+      "description": "The Auras of all Survivors in the Dying State within 20/28/36 metres of your location are revealed to you."
+    },
+    {
+      "perkName": "Discordance",
+      "description": "Any Generator within a range of 64/96/128 metres that is being repaired by 2 or more Survivors is marked by a yellow Aura. When the Generator is first highlighted, Discordance triggers a Loud Noise Notification on the Generator. After the Generator is no longer within range or is being repaired by just 1 Survivor, the highlighted Aura will linger for another 4 seconds."
+    },
+    {
+      "perkName": "Dissolution",
+      "description": "After 3 seconds of injuring a Survivor by any means, Dissolution activates for 12/16/20 seconds:\nInstantly breaks the next Pallet that Survivor performs a Fast Vault across while inside your Terror Radius."
+    },
+    {
+      "perkName": "Distressing",
+      "description": "Your horrifying emanation strikes at a supernaturally long distance. Increases your Terror Radius by 22/24/26%. Grants 100 % bonus Bloodpoints for all actions in the Deviousness Category."
+    },
+    {
+      "perkName": "Dominance",
+      "description": "The first time each Chest and each Totem are interacted with by a Survivor, Dominance triggers its effect:\nCalls upon The Entity to block it for 8/12/16 seconds.\nThe Aura of the blocked Prop is revealed to you in white."
+    },
+    {
+      "perkName": "Dragon's Grip",
+      "description": "Performing the Damage Generator action on a Generator activates Dragon's Grip for the next 30 seconds. The first Survivor interacting with the damaged Generator will scream, revealing their location for 4 seconds, and suffer from the Exposed Status Effect for 60 seconds. Dragon's Grip has a cool-down of 60/50/40 seconds."
+    },
+    {
+      "perkName": "Dying Light",
+      "modifiers": {
+        "repairing": {
+          "modifier": 0.18,
+          "condition": "For all survivors other than the obsession once you have 6 tokens"
+        },
+        "sabotaging": {
+          "modifier": 0.18,
+          "condition": "For all survivors other than the obsession once you have 6 tokens"
+        },
+        "healingTime": {
+          "modifier": 0.18,
+          "condition": "For all survivors other than the obsession once you have 6 tokens"
+        }
+      },
+      "description": "Each time you hook a Survivor other than your Obsession, you gain +1 Token:\nFor as long as the Obsession is alive, all other Survivors suffer from a stack-able 2/2.5/3% per Token Action Speed penalty to Repairing, Healing, and Sabotaging, up to a maximum of 22/27.5/33% or 11 Tokens.\nThe Obsession is unaffected by this penalty and instead granted a permanent +33% Action Speed bonus to Unhooking and Healing other Survivors.\nYou can only be obsessed with one Survivor at a time."
+    },
+    {
+      "perkName": "Enduring",
+      "modifiers": {
+        "palletStun": {
+          "modifier": -0.5,
+          "condition": "While not carrying a survivor."
+        }
+      },
+      "description": "Reduces the duration of Pallet Stuns by 40/45/50%. Enduring has no effect while carrying a Survivor."
+    },
+    {
+      "perkName": "Eruption",
+      "description": "Performing the Damage Generator action on a Generator applies Eruption:\nAll affected Generators are highlighted to you in yellow.\nThe next time any Survivor enters the Dying State by any means, all affected Generators explode and immediately start regressing, which removes the highlighted Aura.\nInstantly regresses the Generator by -10% of its maximum possible Progression.\nCauses all Survivors repairing the afflicted Generators to scream and reveal their Aura to you for 8/10/12 seconds.\nEruption has a cool-down of 30 seconds."
+    },
+    {
+      "perkName": "Fire Up",
+      "modifiers": {
+        "pickupSpeed": {
+          "modifier": -0.2,
+          "condition": "Once you have 5 Tokens."
+        },
+        "breaking": {
+          "modifier": -0.2,
+          "condition": "Once you have 5 Tokens."
+        },
+        "vaulting": {
+          "modifier": -0.2,
+          "condition": "Once you have 5 Tokens."
+        }
+      },
+      "description": "Each time a Generator is completed, Fire Up grows in power and gains 1 Token, up to a maximum of 5 Tokens.\nEach Token applies a stack-able buff of 3/3.5/4% per Token, up to a maximum of 15/17.5/20%, to the following Action speeds:\nPicking up and dropping Survivors.\nBreaking Breakable Walls and Pallets, and damaging Generators.\nVaulting Windows."
+    },
+    {
+      "perkName": "Forced Hesitation",
+      "modifiers": {
+        "hindered": {
+          "modifier": -0.2,
+          "condition": "For 10 seconds on survivors within 16 metres of a survivor put into a Dying State."
+        }
+      },
+      "description": "Whenever a Survivor is put into the Dying State by any means, all other Survivors within 16 metres of them suffer from a -20% Hindered Status Effect for 10 seconds. Forced Hesitation has a cool-down of 40/35/30 seconds."
+    },
+    {
+      "perkName": "Forced Penance",
+      "description": "Survivors who take a Protection Hit suffer from the Broken Status Effect for the next 60/70/80 seconds."
+    },
+    {
+      "perkName": "Franklin's Demise",
+      "description": "Your vicious Basic Attacks make Survivors drop their Items on impact:\nCauses dropped Items to slowly lose their Charges over 150/120/90 seconds.\nThe Auras of dropped Items are revealed to you within 32 metres.\nThe level of depletion is indicated by the colour of the Aura, ranging from white to red as the timer elapses."
+    },
+    {
+      "perkName": "Friends 'til the End",
+      "description": "When you hook any Survivors that is not the Obsession, the following effects apply to the Obsession:\nTheir Aura is revealed for 6/8/10 seconds.\nThey suffer from the Exposed Status Effect for 20 seconds.\nWhen you hook the Obsession, the following effects apply to a random Survivor:\nCauses the Survivor to scream and reveal their location to the Killer.\nThey become the new Obsession.\nYou can only be obsessed with one Survivor at a time."
+    },
+    {
+      "perkName": "Furtive Chase",
+      "modifiers": {
+        "movementSpeed": {
+          "modifier": 0.05,
+          "condition": "For 18 seconds after hooking the Obsession."
+        }
+      },
+      "description": "Each time you hook your Obsession, you benefit from the following effects for 14/16/18 seconds:\nGrants the Undetectable Status Effect.\nGrants a +5 % Haste Status Effect.\nWhenever the Obsession is rescued from a Hook, their rescuer will become the new Obsession.\nYou can only be obsessed with one Survivor at a time."
+    },
+    {
+      "perkName": "Game Afoot",
+      "modifiers": {
+        "movementSpeed": {
+          "modifier": 0.05,
+          "condition": "For 10 seconds after damaging a generator or breaking a breakable wall or pallet, while chasing the Obsession."
+        }
+      },
+      "description": "Whenever you hit the Survivor with the highest cumulative Chase time, with a Basic Attack, they become the Obsession.\nWhile you are chasing your Obsession, Game Afoot activates its secondary effect:\nGrants a 5 % Haste Status Effect for 8/9/10 seconds after damaging a Generator or breaking a Breakable Wall or Pallet.\nYou can only be obsessed with one Survivor at a time."
+    },
+    {
+      "perkName": "Gearhead",
+      "description": "After a Survivor loses a Health State, Gearhead activates for 30 seconds:\nWhile Gearhead is active, a Survivor succeeding a Good Skill Check while repairing reveals their Aura to you for 6/7/8 seconds."
+    },
+    {
+      "perkName": "Genetic Limits",
+      "description": "Whenever a Survivor loses a Health State, they suffer from the Exhausted Status Effect for 6/7/8 seconds."
+    },
+    {
+      "perkName": "Grim Embrace",
+      "description": "Each time a Survivor is hooked for the first time, Grim Embrace gains +1 Token and activates once you are at least 16 metres away from the Hook:\n1-3 Tokens: Blocks all Generators for 6/8/10 seconds.\n4 Tokens: Blocks all Generators for 40 seconds and the Aura of the Obsession is revealed to you for 6 seconds."
+    },
+    {
+      "perkName": "Hex: Blood Favour",
+      "description": "Whenever a Survivor loses a Health State by any means and thus enters the Injured State or the Dying State, Hex: Blood Favour calls upon The Entity to block all Pallets within 24/28/32 metres of that Survivor's location from being pulled down for the next 15 seconds.\nAll effects of the Hex Perk persist until its Hex Totem is cleansed or blessed."
+    },
+    {
+      "perkName": "Hex: Crowd Control",
+      "description": "Whenever any Survivor performs a Rushed Action to vault a Window, Hex: Crowd Control triggers its effect:\nPermanently blocks the last 3/4/5 Windows to all Survivors.\nAny successive trigger unblocks the oldest Blocked Window.\nAll effects of the Hex Perk persist until its Hex Totem is cleansed or blessed."
+    },
+    {
+      "perkName": "Hex: Devour Hope",
+      "description": "Whenever a Survivor is rescued from a Hook while you are at least 24 metres away, Hex: Devour Hope is granted +1 Token, up to a maximum of 5 Tokens:\n2 Tokens: Grants a 3/4/5 % Haste Status Effect for 10 seconds after 10 seconds of having hooked a Survivor.\n3 Tokens: causes all Survivors to suffer from a permanent Exposed Status Effect.\n5 Tokens: grants the ability to kill all Survivors by your own hand.\nAll effects of the Hex Perk persist until its Hex Totem is cleansed or blessed."
+    },
+    {
+      "perkName": "Hex: Face the Darkness",
+      "description": "Whenever you injure a Survivor by any means, if there is still a Dull Totem remaining on the Map, Hex: Face the Darkness activates and lights it, cursing that Survivor:\nCauses all other Survivors to scream every 35/30/25 seconds, if they are outside of the Terror Radius, revealing their Auras for 2 seconds each time.\nHex: Face the Darkness deactivates once the Cursed Survivor either enters the Dying State or is fully healed, which extinguishes the Totem.\nHex: Face the Darkness is disabled for the remainder of the Trial, if a Survivor manages to cleanse its Hex Totem."
+    },
+    {
+      "perkName": "Hex: Haunted Ground",
+      "description": "Two trapped Hex Totems will spawn in the Trial Grounds.\nWhen either Hex Totem is cleansed or blessed, all Survivors suffer from the Exposed Status Effect for 40/50/60 seconds.\nThe second Hex Totem will immediately turn into a Dull Totem."
+    },
+    {
+      "perkName": "Hex: Huntress Lullaby",
+      "description": "Survivors failing a Repair Skill Check instantly regress the Generator by 2/4/6 % of its maximum possible Progression in addition to the default Progression penalty.\nSurvivors failing a Healing Skill Check instantly regress the Healing Action by 2/4/6 % of its maximum possible Progression in addition to the default Progression penalty.\nEach time a Survivor is hooked, Hex: Huntress Lullaby grows in power and gains 1 Token, up to a maximum of 5 Tokens.\nEach Token reduces the timer between the Skill Check Warning cue and the Skill Check appearing for both Repair and Healing Skill Checks:\n1 Token: reduction of -14%.\n2 Tokens: reduction of -28%.\n3 Tokens: reduction of -42%.\n4 Tokens: reduction of -56%.\n5 Tokens: complete suppression of the Warning cue.\nAll effects of the Hex Perk persist until its Hex Totem is cleansed or blessed."
+    },
+    {
+      "perkName": "Hex: No One Escapes Death",
+      "modifiers": {
+        "movementSpeed": {
+          "modifier": 0.04,
+          "condition": "Once all exit gates are powered, while the Hex Totem is still lit."
+        }
+      },
+      "description": "You are animated by the power of your Hex Totem when the Survivors are on the verge of escaping.\nOnce the Exit Gates are powered, if there is still a Dull Totem remaining in the environment, Hex: No One Escapes Death activates and lights it:\nGrants a 2/3/4 % Haste Status Effect.\nCauses all Survivors to suffer permanently from the Exposed Status Effect.\nHex: No One Escapes Death remains inactive if no Dull Totems are available.\nOnce the Status Effect is revealed to Survivors, Hex: No One Escapes Death reveals the Aura of its Hex Totem to all Survivors within 4 metres and gradually expands that range to 24 metres over the course of 30 seconds.\nAll effects of the Hex Perk persist until its Hex Totem is cleansed or blessed."
+    },
+    {
+      "perkName": "Hex: Pentimento",
+      "modifiers": {
+        "repairing": {
+          "modifier": 0.3,
+          "condition": "If at least 1 Hex: Pentimento totem is lit."
+        },
+        "recovery": {
+          "modifier": 0.3,
+          "condition": "If at least 3 Hex: Pentimento totems are lit."
+        },
+        "exitGates": {
+          "modifier": 0.3,
+          "condition": "If at least 4 Hex: Pentimento totems are lit."
+        },
+        "healingTime": {
+          "modifier": 0.3,
+          "condition": "If at least 2 Hex: Pentimento totems are lit."
+        }
+      },
+      "description": "You see the Auras of cleansed Totems.\nYou can perform a ritual on a cleansed Totem to resurrect it as a Rekindled Totem.\nFor each Rekindled Totem active at the same time, Hex: Pentimento gains an additional effect:\n1 Totem: reduces all Survivors' Repair speed by 20/25/30%.\n2 Totems: reduces all Survivors' Healing speed by 20/25/30%.\n3 Totems: reduces all Survivors' Recovery speed from being downed by 20/25/30%.\n4 Totems: reduces all Survivors' Gate-Opening speed by 20/25/30%.\n5 Totems: all Totems are permanently blocked by The Entity\n.When a Rekindled Totem is cleansed, its remains are consumed by The Entity and it cannot be rekindled."
+    },
+    {
+      "perkName": "Hex: Plaything",
+      "description": "If there is at least one Dull Totem remaining in the Trial Grounds, Hex: Plaything activates on a random Totem each time a Survivor is hooked for the first time:\nThe hooked Survivor suffers from the Cursed and Oblivious Status Effects until Hex: Plaything is cleansed.\nFor the first 90 seconds, only the Cursed Survivor is able to cleanse the Hex Totem.\nThe Aura of Hex: Plaything's Hex Totem is revealed to the Cursed Survivor within 24/20/16 metres.\nAll effects of the Hex Perk persist until its Hex Totem is cleansed or blessed."
+    },
+    {
+      "perkName": "Hex: Retribution",
+      "description": "Survivors cleansing or blessing any Totem suffer from the Oblivious Status Effect for 35/40/45 seconds.\nAfter cleansing or blessing a Hex Totem, the Auras of all Survivors are revealed to you for 15 seconds.\nAll effects of the Hex Perk persist until its Hex Totem is cleansed or blessed."
+    },
+    {
+      "perkName": "Hex: Ruin",
+      "description": "Whenever a Generator is not being repaired by a Survivor, it will immediately and automatically regress its Repair progress at 50/75/100 % of the normal Regression speed.\nAll effects of the Hex Perk persist until its Hex Totem is cleansed or blessed."
+    },
+    {
+      "perkName": "Hex: The Third Seal",
+      "description": "The last 2/3/4 Survivors you hit with a Basic or Special Attack suffer permanently from the Blindness Status Effect.\nAll effects of the Hex Perk persist until its Hex Totem is cleansed or blessed."
+    },
+    {
+      "perkName": "Hex: Thrill of the Hunt",
+      "modifiers": {
+        "totemCleanseSpeed": {
+          "modifier": 0.7,
+          "condition": "If all 5 Totems remain in the trial."
+        }
+      },
+      "description": "For each Totem remaining in the environment, Hex: Thrill of the Hunt is granted 1 Token.\nFor each Token, all Survivors suffer from a stack-able 10/12/14% Action Speed penalty to Cleansing and Blessing Totems, up to a maximum of 50/60/70%.\nAll effects of the Hex Perk persist until its Hex Totem is cleansed or blessed."
+    },
+    {
+      "perkName": "Hex: Two Can Play",
+      "description": "Anytime you are stunned or blinded by any Survivor a total of 4/3/2 times, and if there is not yet a Hex Totem already associated with Hex: Two Can Play and there is at least one Dull Totem remaining in the Trial Grounds, Hex: Two Can Play activates on a random Totem:\nBlinds all Survivors who stun or blind you for 1.5 seconds.\nThis does not affect carried Survivors.\nAll effects of the Hex Perk persist until its Hex Totem is cleansed or blessed."
+    },
+    {
+      "perkName": "Hex: Undying",
+      "description": "The Auras of Survivors within 2/3/4 metres of any Dull Totem are revealed to you. When another Perk's Hex Totem is cleansed or blessed, its Hex is transferred to the Hex: Undying Totem, including any accumulated Tokens, disabling Hex: Undying instead. All effects of the Hex Perk persist until its Hex Totem is cleansed or blessed."
+    },
+    {
+      "perkName": "Hex: Wretched Fate",
+      "modifiers": {
+        "repairing": {
+          "modifier": 0.33,
+          "condition": "Affects only the Obsession while the Hex Totem is lit."
+        }
+      },
+      "description": "After a Generator is completed, Hex: Wretched Fate activates and lights a random Dull Totem, cursing the Obsession:\nReduces their Repair speed by 27/30/33 %.\nThe Aura of the Hex Totem is revealed to them within 12 metres."
+    },
+    {
+      "perkName": "Hoader",
+      "description": "Hoarder triggers a Loud Noise Notification for 4 seconds, whenever a Survivor performs any of the following actions within 32/48/64 metres of your location:\nUnlocks a Chest.\nPicks up any Item.\nHoarder spawns 2 additional Chests in the Trial."
+    },
+    {
+      "perkName": "Hubris",
+      "description": "Whenever you are stunned by a Survivor, that Survivor suffers from the Exposed Status Effect for 10/15/20 seconds. Hubris has a cool-down of 20 seconds."
+    },
+    {
+      "perkName": "Human Greed",
+      "description": "Grants the ability to kick opened Chests and close them. The Auras of unopened Chests are revealed to you at all times. The Auras of Survivors coming within 8 metres of unopened or closed Chests are revealed to you for 3 seconds. Human Greed has a cool-down of 30/25/20 seconds on the ability to kick Chests."
+    },
+    {
+      "perkName": "Hysteria",
+      "description": "Whenever you put a healthy Survivor into the Injured State, all injured Survivors suffer from the Oblivious Status Effect for 20/25/30 seconds. Hysteria has a cool-down of 30 seconds."
+    },
+    {
+      "perkName": "I'm All Ears",
+      "description": "Any Survivor performing a Rushed Vault within 48 metres of your location triggers I'm All Ears:\nThe Aura of that Survivor is revealed to you for 6 seconds.\nI'm All Ears has a cool-down of 60/45/30 seconds."
+    },
+    {
+      "perkName": "Infectious Fright",
+      "description": "Whenever a Survivor is put into the Dying State by any means, all other Survivors within your Terror Radius will scream and reveal their current location to you for 4/5/6 seconds."
+    },
+    {
+      "perkName": "Insidious",
+      "description": "Grants the Undetectable Status Effect after standing still for 4/3/2 seconds. This effect lasts until you start moving again."
+    },
+    {
+      "perkName": "Iron Grasp",
+      "description": "Whenever you are carrying a Survivor, the following effects apply:\nReduces the strength of the Wiggle effects, causing involuntary strafing, by 75%.\nIncreases the maximum Wiggle duration by 4/8/12%."
+    },
+    {
+      "perkName": "Iron Maiden",
+      "description": "Increases your Locker Search speed by 30/40/50%. Survivors who exit a Locker suffer from the following afflictions:\nScream and reveal their location to you for 4 seconds.\nSuffer from the Exposed Status Effect for 30 seconds."
+    },
+    {
+      "perkName": "Knock Out",
+      "modifiers": {
+        "recovery": {
+          "modifier": 0.25,
+          "condition": "For 15 seconds after the Survivor is downed."
+        }
+      },
+      "description": "Putting a Survivor into the Dying State with your Basic Attack blocks their Aura from being revealed to any Survivor that is farther than 32/24/16 metres away from them.\nFor the next 15 seconds, the following effects apply to the dying Survivor:\nReduces their Field of View and causes them to be deafened.\nSuffers from the Blindness Status Effect.\nReduces the Crawling speed by -50 %.\nReduces the Recovery speed by -25 %."
+    },
+    {
+      "perkName": "Languid Touch",
+      "description": "When a Survivor scares off a Crow within 36 metres of your location, Languid Touch activates:\nCauses that Survivor to suffer from the Exhausted Status Effect for 6/8/10 seconds.\nLanguid Touch has a cool-down of 5 seconds."
+    },
+    {
+      "perkName": "Lethal Pursuer",
+      "description": "At the start of the Trial, the Auras of all Survivors are revealed to you for 7/8/9 seconds. Extends the duration of all instances of a Survivor Aura being revealed to you by +2 seconds. Lethal Pursuer benefits from its own effect."
+    },
+    {
+      "perkName": "Leverage",
+      "modifiers": {
+        "healingTime": {
+          "modifier": 0.5,
+          "condition": "For 30 seconds after the Survivor performs the Unhook action."
+        }
+      },
+      "description": "Whenever a Survivor performs an Unhook action, they suffer from the following effect for 30 seconds:\nReduces their Healing speed by 30/40/50 %."
+    },
+    {
+      "perkName": "Lightborn",
+      "description": "The Auras of Survivors attempting to blind you by any means are revealed to you for 6/8/10 seconds. Grants immunity from being blinded from Flashlights, Firecrackers, Flash Grenades, and Blast Mine."
+    },
+    {
+      "perkName": "Machine Learning",
+      "modifiers": {
+        "movementSpeed": {
+          "modifier": 0.1,
+          "condition": "For 45 seconds after the affected generator is completed."
+        }
+      },
+      "description": "After performing the Damage Generator action, Machine Learning activates:\nCauses that Generator to become a Compromised Generator.\nDamaging another Generator transfers the state to it instead.\nThe Aura of the Compromised Generator is highlighted to you in yellow until it is completed.\nOnce the Compromised Generator is completed, you benefit from the following effects for 35/40/45 seconds:\nUndetectable Status Effect\n+10 % Haste Status Effect\nMachine Learning deactivates after use."
+    },
+    {
+      "perkName": "Mad Grit",
+      "description": "Whenever you are carrying a Survivor, Mad Grit activates:\nRemoves the Cool-down of missed Basic Attacks.\nPauses the Wiggle Progression of the carried Survivor for 2/3/4 seconds each time you successfully hit another Survivor."
+    },
+    {
+      "perkName": "Make Your Choice",
+      "description": "Whenever a Survivor is rescued from a Hook, while you are farther than 32 metres away, Make Your Choice activates:\nCauses the unhooking Survivor to scream and reveal their location to you.\nCauses them to suffer from the Exposed Status Effect for 40/50/60 seconds.\nMake Your Choice has a cooldown of 40/50/60 seconds."
+    },
+    {
+      "perkName": "Merciless Storm",
+      "description": "Whenever a Generator reaches 90 % of Repair progression, Merciless Storm triggers its effect:\nAll Survivors repairing that Generator are faced with a continuous stream of Skill Checks until the Generator is completed.\nIf any contributing Survivor fails a Skill Check or interrupts the action by any means, The Entity blocks the Generator for 16/18/20 seconds.\nMerciless Storm can only trigger once per Generator per Trial."
+    },
+    {
+      "perkName": "Mindbreaker",
+      "description": "All Survivors repairing a Generator suffer from the following afflictions:\nIncurs the Blindness and Exhausted Status Effects for the duration of the Repair action.\nIf a Survivor was already suffering from Exhausted prior to Mindbreaker affecting them, the Status Effect's timer will be paused and not recover for the duration of the Repair action.\nBoth Status Effects linger for another 3/4/5 seconds after a Survivor stops repairing."
+    },
+    {
+      "perkName": "Monitor & Abuse",
+      "description": "Increases the base value of your Terror Radius by 6/7/8 metres for the entire Trial.\nWhenever you are not in a Chase with a Survivor, the following effect applies:\nReduces your Terror Radius by 12/14/16 metres."
+    },
+    {
+      "perkName": "Nemesis",
+      "description": "Any Survivor who blinds you or stuns you using a Pallet or a Locker becomes the Obsession. Anytime your Obsession switches to another Survivor by any means, that Survivor then suffers from the Oblivious Status Effect for 40/50/60 seconds and their Aura is revealed to you for 4 seconds. You can only be obsessed with one Survivor at a time."
+    },
+    {
+      "perkName": "No Quarter",
+      "description": "Whenever a Survivor healing themselves by any means reaches 75 % Healing Progress, No Quarter triggers its effect:\nThe Survivor is faced with a continuous stream of Skill Checks until the Self-Heal is completed.\nIf they fail a Skill Check or interrupt the action by any means, they suffer from the Broken Status Effect for 20/25/30 seconds."
+    },
+    {
+      "perkName": "No Way Out",
+      "description": "For each Survivor you hook for the first time, No Way Out gains 1 Token. Once the Exit Gates have been powered, No Way Out activates:\nWhen a Survivor interacts with an Exit Gate Switch, you receive a Loud Noise Notification and The Entity blocks both Exit Gate Switches for 12 seconds and an additional 6/9/12 seconds per Token in your possession, up to a combined maximum of 36/48/60 seconds."
+    },
+    {
+      "perkName": "Nowhere to Hide",
+      "description": "Performing the Damage Generator action on a Generator triggers Nowhere to Hide:\nThe Auras of all Survivors within 24 metres of your location are revealed to you for 3/4/5 seconds."
+    },
+    {
+      "perkName": "Oppression",
+      "description": "Performing the Damage Generator action on a Generator activates Oppression:\nCauses up to 3 additional Generators to also start regressing.\nTriggers a difficult Skill Check for all Survivors currently repairing an affected Generator.\nOppression has a cool-down of 60/50/40 seconds."
+    },
+    {
+      "perkName": "Overcharge",
+      "modifiers": {
+        "genRegressionSpeed": {
+          "modifier": 0.3,
+          "condition": "30 seconds after kicking a generator."
+        }
+      },
+      "description": "Performing the Damage Generator action on a Generator applies Overcharge:\nThe next Survivor interacting with that Generator is faced with a difficult Skill Check.\nFailing that Skill Check instantly regresses the Generator by 2/3/4% of its maximum possible Progression in addition to the default Progression penalty.\nAfter Overcharge is applied to a Generator, the following effect also applies:\nIncreases the Regression speed from 85% to 130% over the next 30 seconds."
+    },
+    {
+      "perkName": "Overwhelming Presence",
+      "description": "Survivors within your Terror Radius suffer from inefficiency:\nWhen using an Item, its Depletion rate is increased by 80/90/100%."
+    },
+    {
+      "perkName": "Play with Your Food",
+      "modifiers": {
+        "movementSpeed": {
+          "modifier": 0.15,
+          "condition": "With 3 Token of Play with Your Food."
+        }
+      },
+      "description": "Each time you chase your Obsession and let them escape, Play with Your Food gains +1 Token, up to a maximum of 3 Tokens.\nGrants a stack-able 3/4/5% Haste Status Effect per Token, up to a maximum of 9/12/15%.\nPerforming Basic Attacks, or Special Attacks that can damage Survivors, consumes -1 Token.\nPlay with Your Food has a cool-down of 10 seconds on Token-accumulation.\nYou can only be obsessed with one Survivor at a time."
+    },
+    {
+      "perkName": "Pop Goes the Weasel",
+      "description": "After hooking a Survivor, Pop Goes the Weasel activates for 35/40/45 seconds.\nPerform the Damage Generator action while Pop Goes the Weasel is active to benefit from the following effect:\nInstantly regresses the damaged Generator by -20% of its current Progression.\nPop Goes the Weasel deactivates after the Generator is damaged or once the timer runs out."
+    },
+    {
+      "perkName": "Predator",
+      "description": "When a Survivor loses you in a chase, their Aura is revealed to you for 4 seconds. Predator has a cool-down of 60/50/40 seconds."
+    },
+    {
+      "perkName": "Rancor",
+      "description": "Each time a Generator is completed, the following effects apply:\nReveals your Aura to the Obsession for 5/4/3 seconds.\nAll Survivors' locations are revealed to you for 3 seconds.\nOnce the Exit Gates are powered, the following effects apply:\nYou are granted the ability to kill the Obsession by your own hand.\nThe Obsession suffers from a permanent Exposed Status Effect.\nYou can only be obsessed with one Survivor at a time."
+    },
+    {
+      "perkName": "Rapid Brutality",
+      "modifiers": {
+        "movementSpeed": {
+          "modifier": 0.05,
+          "condition": "For 10 seconds after hitting a Survivor with a Basic Attack"
+        }
+      },
+      "description": "You can no longer gain the Bloodlust Status Effect. Successfully hitting a Survivor with a Basic Attack grants you a +5 % Haste Status Effect for 8/9/10 seconds."
+    },
+    {
+      "perkName": "Remember Me",
+      "modifiers": {
+        "exitGates": {
+          "secondsModifier": 24,
+          "condition": "If the Obsession has lost a Health State at least 4 times."
+        }
+      },
+      "description": "Whenever the Obsession loses a Health State by any means, Remember Me gains +1 Token, up to a maximum of 2/3/4 Tokens:\nIncreases the Opening time for both Exit Gates by +6 seconds per Token, up to a maximum of 12/18/24 seconds, for all Survivors other than the Obsession.\nThe Obsession is exempt from this penalty.\nYou can only be obsessed with one Survivor at a time."
+    },
+    {
+      "perkName": "Save the Best for Last",
+      "modifiers": {
+        "successfulHitCooldown": {
+          "modifier": -0.32,
+          "condition": "While you have 8 Tokens."
+        }
+      },
+      "description": "Whenever you hit a Survivor other than your Obsession with a Basic Attack, Save the Best for Last gains +1 Token, up to a maximum of 6/7/8 Tokens:\nGrants a stack-able -4 % Cool-down reduction on successful Basic Attacks per Token, up to a maximum of 24/28/32%.\nWhenever you hit your Obsession with a Basic or Special Attack, Save the Best for Last loses -2 Tokens.\nWhen the Obsession is sacrificed or killed, Save the Best for Last freezes its current Token count.\nYou can only be obsessed with one Survivor at a time."
+    },
+    {
+      "perkName": "Scourge Hook: Floods of Rage",
+      "description": "At the start of the Trial, 4 random Hooks are changed into Scourge Hooks:\nThe Auras of Scourge Hooks are revealed to you in white.\nEach time a Survivor is unhooked from a Scourge Hook, the following effects apply:\nThe Auras of all other Survivors are revealed for 5/6/7 seconds."
+    },
+    {
+      "perkName": "Scourge Hook: Gift of Pain",
+      "modifiers": {
+        "repairing": {
+          "modifier": 0.16,
+          "condition": "Affects the Survivor unhooked from a Scourge Hook after they are healed, until they are injured again."
+        },
+        "healingTime": {
+          "modifier": 0.16,
+          "condition": "Affects the Survivor unhooked from a Scourge Hook after they are healed, until they are injured again."
+        },
+        "beingHealedTime": {
+          "modifier": 0.2,
+          "condition": "Affects the Survivor unhooked from a Scourge Hook for 90 seconds."
+        }
+      },
+      "description": "At the start of the Trial, 4 random Hooks are changed into Scourge Hooks:\nThe Auras of Scourge Hooks are revealed to you in white.\nEach time a Survivor is unhooked from a Scourge Hook, the following effects apply:\nThe Survivor suffers from the Haemorrhage and Mangled Status Effects for 90 seconds.\nUpon being healed, the Survivor suffers from a 10/13/16% Action Speed penalty to Repairing and Healing until they are injured again."
+    },
+    {
+      "perkName": "Scourge Hook: Hangman's Trick",
+      "description": "At the start of the Trial, 4 random Hooks are changed into Scourge Hooks:\nThe Auras of Scourge Hooks are revealed to you in white.\nReceive a Loud Noise Notification, whenever a Survivor starts sabotaging a Hook.\nWhile carrying a Survivor, the Auras of all Survivors within 8/10/12 metres of a Scourge Hook are revealed to you."
+    },
+    {
+      "perkName": "Scourge Hook: Jagged Compass",
+      "description": "At the start of the Trial, 4 random Hooks are changed into Scourge Hooks:\nThe Auras of Scourge Hooks are revealed to you in white.\nWhenever a Survivor is unhooked from a normal Hook, the following effect applies:\nThe Hook is converted into a Scourge Hook.\nWhenever you hook a Survivor onto a Scourge Hook, the following effect applies:\nThe Aura of the Generator with the most progression is highlighted in yellow for 6/8/10 seconds."
+    },
+    {
+      "perkName": "Scourge Hook: Monstrous Shrine",
+      "modifiers": {
+        "sacrificeTime": {
+          "modifier": -0.2,
+          "condition": "For survivors on Scourge Hooks."
+        }
+      },
+      "description": "At the start of the Trial, 4 random Hooks, as well as the 4 Basement Hooks, are changed into Scourge Hooks:\nThe Auras of Scourge Hooks are revealed to you in white.\nWhenever a Survivor is hooked onto a Scourge Hook, the following effect applies when you are farther than 24 metres from the hooked Survivor:\nAccelerates the Sacrifice Process by 10/15/20%."
+    },
+    {
+      "perkName": "Scourge Hook: Pain Resonance",
+      "description": "At the start of the Trial, 4 random Hooks are changed into Scourge Hooks:\nThe Auras of Scourge Hooks are revealed to you in white.\nYou start the Trial with 4 Tokens on Scourge Hook: Pain Resonance.\nEach time a Survivor is hooked on a Scourge Hook for the first time, 1 Token is consumed and the following effects apply:\nThe Generator with the most Progression explodes and instantly regresses by 10/15/20 % of its total Progression.\nNormal Generator Regression applies afterwards.\nAll Survivors repairing that Generator will scream, but not reveal their location.\nScourge Hook: Pain Resonance is disabled for the remainder of the Trial once all Tokens are consumed."
+    },
+    {
+      "perkName": "Septic Touch",
+      "description": "Whenever a Survivor performs a Healing action while they are inside your Terror Radius, that Survivor suffers from the Blindness and Exhausted Status Effects. These effects linger for 6/8/10 seconds after the Healing action is interrupted by any means."
+    },
+    {
+      "perkName": "Shadowborn",
+      "modifiers": {
+        "movementSpeed": {
+          "modifier": 0.1,
+          "condition": "For 10 seconds after being blinded by any means."
+        }
+      },
+      "description": "When blinded by any means, you are granted a 6/8/10% Haste Status Effect for 10 seconds."
+    },
+    {
+      "perkName": "Shattered Hope",
+      "description": "Instead of snuffing Boon Totems you destroy them.\nDestroying a Boon Totem this way reveals the Auras of all Survivors that were within its range at that moment for 6/7/8 seconds."
+    },
+    {
+      "perkName": "Sloppy Butcher",
+      "modifiers": {
+        "beingHealedTime": {
+          "modifier": 0.2,
+          "condition": "For 90 seconds after being hit by a Basic Attack."
+        }
+      },
+      "description": "Wounds inflicted by Basic Attacks cause Survivors to suffer from the Haemorrhage and Mangled Status Effects for 70/80/90 seconds. Increases the Bleeding frequency of injured Survivors by 50/75/100% for the same duration. Increases the Regression rate at which partial Healing Progression is lost because of Haemorrhage by +25%."
+    },
+    {
+      "perkName": "Spies from the Shadows",
+      "description": "Whenever you are within 20/28/36 metres of a Crow that was startled by a nearby Survivor, you are alerted with a Loud Noise Notification. Spies from the Shadows has a cool-down of 5 seconds between alerts."
+    },
+    {
+      "perkName": "Spirit Fury",
+      "description": "After manually breaking a dropped Pallet by any means for a total of 4/3/2 times, Spirit Fury activates:\nCauses The Entity to instantly break the next Pallet used to stun you.\nThe normal Stun penalty applies afterwards, unless it is mitigated by other effects.\nSpirit Fury deactivates after use."
+    },
+    {
+      "perkName": "Starstruck",
+      "description": "When carrying a Survivor, Starstruck activates:\nSurvivors suffer from the Exposed Status Effect while in your Terror Radius\n.The Status Effect lingers for 26/28/30 seconds after leaving your Terror Radius.\nAfter hooking or dropping the carried Survivor, Starstruck deactivates:\nThe Status Effect persists for 26/28/30 seconds for any Survivor inside your Terror Radius at that moment.\nStarstruck has a cool-down of 60 seconds once the Survivor is no longer being carried."
+    },
+    {
+      "perkName": "Stridor",
+      "description": "Increases the volume of Grunts of Pain of injured Survivors by 30/40/50%. Increases the volume of regular breathing of Survivors by 15/20/25%."
+    },
+    {
+      "perkName": "Superior Anatomy",
+      "modifiers": {
+        "vaulting": {
+          "modifier": -0.4,
+          "condition": "Once, after a Survivor performs a Rushed Vault within 8 metres of your location, while Superior Anatomy is not on cooldown."
+        }
+      },
+      "description": "Whenever a Survivor performs a Rushed Vault within 8 metres of your location, Superior Anatomy activates:\nIncreases your Vaulting speed by 30/35/40%.\nSuperior Anatomy deactivates after vaulting.\nSuperior Anatomy has a cool-down of 30 seconds."
+    },
+    {
+      "perkName": "Surge",
+      "description": "Whenever you put a Survivor into the Dying State with a Basic Attack, all Generators within 32 metres of your location instantly explode and start regressing. Instantly regresses affected Generators by 6/7/8%."
+    },
+    {
+      "perkName": "Surveillance",
+      "description": "The Auras of regressing Generators are highlighted in white. If the Regression progress is interrupted on a Generator, its Aura will be highlighted in yellow for 8/12/16 seconds. Surveillance increases the audible range of Survivors' Generator-repairing noises by 8 metres."
+    },
+    {
+      "perkName": "THWACK!",
+      "description": "Start the Trial with 3 Tokens. Whenever you hook a Survivor, THWACK! is granted +1 Token.\nWhenever you break a Breakable Wall or a dropped Pallet, THWACK! consumes -1 Token and applies the following effect:\nCauses all Survivors within 24 metres of your location to scream and reveal their location for 3/4/5 seconds."
+    },
+    {
+      "perkName": "Terminus",
+      "description": "Once the Exit Gates are powered, Terminus activates:\nAll Survivors who are either injured, dying, or hooked, suffer from the Broken Status Effect until an Exit Gate is opened.\nThis effect lingers for an additional 20/25/30 seconds."
+    },
+    {
+      "perkName": "Territorial Imperative",
+      "description": "Whenever you are farther than 24 metres from the Basement while a Survivor enters it, Territorial Imperative activates:\nThe Aura of that Survivor is revealed to you for 4/5/6 seconds.\nTerritorial Imperative has a cool-down of 45 seconds."
+    },
+    {
+      "perkName": "Thanatophobia",
+      "modifiers": {
+        "repairing": {
+          "modifier": 0.2,
+          "condition": "While all 4 Survivors are injured, hooked, or dying."
+        },
+        "sabotaging": {
+          "modifier": 0.2,
+          "condition": "While all 4 Survivors are injured, hooked, or dying."
+        },
+        "totemCleanseSpeed": {
+          "modifier": 0.2,
+          "condition": "While all 4 Survivors are injured, hooked, or dying."
+        }
+      },
+      "description": "Each injured, dying, or hooked Survivor afflicts Survivors with a stack-able 1/1.5/2% Action Speed penalty to Repairing, Sabotaging, and Cleansing, up to a maximum of 4/6/8 %. Increases the Action Speed penalty by a further 12%, if there are 4 Survivors, who are either injured, dying, or hooked at the same time."
+    },
+    {
+      "perkName": "Thrilling Tremors",
+      "description": "After picking up a Survivor, all Generators not currently being repaired by Survivors are blocked by The Entity for the next 16 seconds. The Auras of blocked Generators are highlighted to you in white. Thrilling Tremors has a cool-down of 100/80/60 seconds."
+    },
+    {
+      "perkName": "Tinkerer",
+      "description": "Whenever a Generator is repaired to 70%, you benefit from the following effects:\nTriggers a Loud Noise Notification for that Generator, revealing its location.\nGrants the Undetectable Status Effect for the next 12/14/16 seconds.\nTinkerer can only trigger once per Generator per Trial."
+    },
+    {
+      "perkName": "Trail of Torment",
+      "description": "Performing the Damage Generator action on a Generator activates Trail of Torment:\nGrants the Undetectable Status Effect until the Generator stops regressing.\nThe Aura of the damaged Generator is revealed to all Survivors in yellow.\nTrail of Torment has a cool-down of 60/45/30 seconds."
+    },
+    {
+      "perkName": "Ultimate Weapon",
+      "description": "When you open a Locker, all Survivors within 32 metres of the Locker scream and reveal their location to you. This causes them to suffer from the Blindness Status Effect for 30 seconds. Ultimate Weapon has a cool-down of 80/70/60 seconds."
+    },
+    {
+      "perkName": "Unbound",
+      "modifiers": {
+        "vaulting": {
+          "modifier": 0.05,
+          "condition": "For 10 seconds after vaulting a window, within 30 seconds of injuring a Survivor."
+        }
+      },
+      "description": "When a Survivor becomes injured by any means, Unbound activates for 24/27/30 seconds:\nGrants a +5% Haste Status Effect for 10 seconds after vaulting a Window.\nThis effect cannot stack with itself."
+    },
+    {
+      "perkName": "Undone",
+      "description": "Whenever a Survivor fails a Skill Check while repairing or healing, Undone gains +3 Tokens, up to a maximum of 18/24/30 Tokens.\nPerforming the Damage Generator action on a Generator consumes all accumulated Tokens and applies the following effects:\nInstantly regresses the damaged Generator by -1 % per Token of its total Progression.\nBlocks the damaged Generator for 1 second per Token.\nCauses the damaged Generator to start regressing once it becomes unblocked.\nUndone has a cool-down of 60 seconds."
+    },
+    {
+      "perkName": "Unforeseen",
+      "description": "Performing the Damage Generator action on a Generator applies Unforeseen for 22/26/30 seconds:\nTransfers your Terror Radius to the damaged Generator and sets its range to 32 metres.\nGrants the Undetectable Status Effect."
+    },
+    {
+      "perkName": "Unnerving Presence",
+      "description": "Survivors repairing or healing within your Terror Radius suffer from the following effects:\nIncreases the Trigger odds of Skill Check by 10%.\nDecreases the Success zone of Skill Checks by 40/50/60%."
+    },
+    {
+      "perkName": "Unrelenting",
+      "modifiers": {
+        "missedHitCooldown": {
+          "modifier": -0.3
+        }
+      },
+      "description": "Reduces the Cool-down of missed Basic Attacks by 20/25/30%."
+    },
+    {
+      "perkName": "Weave Attunement",
+      "description": "Whenever an Item is depleted for the first time, it is automatically dropped:\nThe Auras of dropped Survivor Items are revealed to you, as well as the Auras of any Survivors within 8 metres of them.\nAffected Survivors see the Aura of that Item as well.\nCauses Survivors picking up a Survivor Item to suffer from the Oblivious Status Effect for 20/25/30 seconds."
+    },
+    {
+      "perkName": "Whispers",
+      "description": "Whenever at least one Survivor is within 48/40/32 metres of your location, you hear the sporadic whispers of the Entity."
+    },
+    {
+      "perkName": "Zanshin Tactics",
+      "description": "The Auras of Pallets and Windows are revealed to you within 32 metres. Whenever a Survivor drops a Pallet, their Aura is revealed to you for 3/4/5 seconds."
+    }
+  ]
+}

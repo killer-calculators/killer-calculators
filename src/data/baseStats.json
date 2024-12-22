@@ -1,1 +1,99 @@
-
+{
+  "baseStats": [
+    {
+      "statName": "killer movement speed",
+      "movementSpeed": 4.6,
+      "unit": "meters/second"
+    },
+    {
+      "statName": "carrying movement speed",
+      "carryingMovement": 3.68,
+      "unit": "meters/second"
+    },
+    {
+      "statName": "lunge distance",
+      "lunge": 6,
+      "unit": "meters"
+    },
+    {
+      "statName": "vaulting duration",
+      "vaulting": 1.7,
+      "unit": "seconds"
+    },
+    {
+      "statName": "pallet breaking duration",
+      "breaking": 2.34,
+      "unit": "seconds"
+    },
+    {
+      "statName": "time for survivors to heal others",
+      "healingTime": 16,
+      "unit": "seconds"
+    },
+    {
+      "statName": "time for survivor to be healed",
+      "beingHealedTime": 16,
+      "unit": "seconds"
+    },
+    {
+      "statName": "pallet stun duration",
+      "palletStun": 2,
+      "unit": "seconds"
+    },
+    {
+      "statName": "generator repair time",
+      "repairing": 90,
+      "unit": "seconds"
+    },
+    {
+      "statName": "hook sabotaging time",
+      "sabotaging": 3,
+      "unit": "seconds"
+    },
+    {
+      "statName": "downed survivor recovery time",
+      "pickupSpeed": 3,
+      "unit": "seconds"
+    },
+    {
+      "statName": "survivor movement speed",
+      "hindered": 4.0,
+      "unit": "meters/second"
+    },
+    {
+      "statName": "downed survivor recovery speed",
+      "recovery": 0.5,
+      "unit": "charges/second"
+    },
+    {
+      "statName": "exit gate opening time",
+      "exitGates": 20,
+      "unit": "seconds"
+    },
+    {
+      "statName": "totem cleansing time",
+      "totemCleanseSpeed": 14,
+      "unit": "seconds"
+    },
+    {
+      "statName": "generator regression speed",
+      "genRegressionSpeed": 0.25,
+      "unit": "percent/second"
+    },
+    {
+      "statName": "successful attack cooldown time",
+      "successfulHitCooldown": 2.7,
+      "unit": "seconds"
+    },
+    {
+      "statName": "missed attack cooldown time",
+      "missedHitCooldown": 1.5,
+      "unit": "seconds"
+    },
+    {
+      "statName": "hook stage duration",
+      "sacrificeTime": 70,
+      "unit": "seconds"
+    }
+  ]
+}
