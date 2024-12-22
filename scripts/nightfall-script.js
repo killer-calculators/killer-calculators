@@ -69,7 +69,7 @@ function calculateNightfall() {
     }
     injuredChargesTotal = Math.round(injuredChargesTotal * 100) / 100;
 
-    resultText = `it would take <span class="big data">${seconds}</span> seconds to
+    resultText = `it would take &nbsp<strong class="bold spaced">${seconds}</strong> seconds to
           charge nightfall`;
 
     // display result

@@ -6,9 +6,10 @@ let y1 = 220; // baseline for graph1's axes
 let y2 = 90; // baseline for graph2's axes
 
 function setup() {
-  canvas = createCanvas(800, 600);
+  canvas = createCanvas(700, 600);
   canvas.parent("canvas-container");
-  background(67, 64, 65);
+  clear();
+  // background(67, 64, 65);
   textFont("National Park");
   setupGraph1();
   setupGraph2();
@@ -136,14 +137,15 @@ function setupGraph1() {
   pop();
   push();
   textSize(14);
-  translate(width / 2 + 40, y1 + 50);
+  translate(width / 2 + 20, y1 + 50);
   textAlign(CENTER);
   text("timeline (seconds)", 0, 0);
   pop();
   push();
-  translate(width / 2 + 40, y1 - 160);
+  translate(width / 2 + 20, y1 - 160);
   textSize(20);
   textAlign(CENTER);
+  // translate(-10, 0);
   text("post-manifestation lingering invisibility", 0, 0);
   pop();
 }
@@ -194,13 +196,13 @@ function setupGraph2() {
 
   push();
   textSize(14);
-  translate(width / 2 + 40, height - (y2 - 50));
+  translate(width / 2 + 20, height - (y2 - 50));
   textAlign(CENTER);
   text("timeline (seconds)", 0, 0);
   pop();
 
   push();
-  translate(width / 2 + 40, height - (y2 + 170));
+  translate(width / 2 + 20, height - (y2 + 170));
   textSize(20);
   textAlign(CENTER);
   text("demanifested intermittent invisibility", 0, 0);
