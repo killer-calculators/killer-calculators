@@ -1,0 +1,44 @@
+nav .fake-link {
+  cursor: auto;
+}
+
+nav a,
+nav .fake-link {
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 14px 30px;
+}
+
+nav .fake-link {
+  background-color: rgb(67, 64, 65);
+  font-style: italic;
+  letter-spacing: 0.05em;
+}
+
+#home-header {
+  align-self: center;
+  margin-bottom: 40px;
+  padding: 20px 100px;
+  width: fit-content;
+  border: 2px solid white;
+  border-radius: 30px;
+  background-image: linear-gradient(to right, #a56f8e, #2a2326);
+}
+
+.home-nav {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+}
+
+footer {
+  position: absolute;
+  width: 70%;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0px;
+  /* background-color: #2a2326; */
+}
