@@ -1,0 +1,253 @@
+@font-face {
+  font-family: "National Park";
+  src: url("NationalPark-VariableVF.ttf") format("truetype");
+}
+
+body {
+  background-color: rgb(67, 64, 65);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 5px 20px;
+}
+
+/* basic typeface base styles ------------------------------------------------------- */
+
+* {
+  font-family: "National Park";
+  color: white;
+  font-weight: 300;
+  font-style: normal;
+}
+
+h2 {
+  color: #d0b4c4;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+h4 {
+  margin: 0px;
+}
+
+p,
+label,
+ul,
+li {
+  font-size: 16px;
+}
+
+a {
+  color: #d0b4c4;
+  font-weight: 400;
+}
+
+small {
+  font-size: 0.85em;
+}
+
+strong {
+  font-size: 1.2em;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.spaced {
+  letter-spacing: 0.02em;
+}
+
+/* base styles by section ------------------------------------------------------- */
+
+/* basic rounded box for each section */
+.box-container {
+  padding: 15px 30px 30px 30px;
+  border-radius: 10px;
+  border: 2px solid white;
+  background-color: rgb(67, 64, 65);
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 25px;
+  height: 100px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+header img {
+  width: auto;
+  height: 100%;
+  margin-right: 10px;
+}
+
+header img:hover {
+  transform: scale(1.5, 1.5);
+}
+
+.page-nav {
+  display: flex;
+  justify-content: center;
+  gap: 8px 15px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+nav a,
+nav .fake-link {
+  padding: 10px 10px;
+  font-size: 15px;
+  color: white;
+  background-color: rgb(96, 96, 96);
+  border: 1px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+nav a:hover {
+  box-shadow: 7px 7px 5px #100d0f;
+  background-color: #a56f8e;
+}
+
+button:hover {
+  box-shadow: 7px 7px 5px #100d0f;
+  background-color: #a56f8e;
+  cursor: pointer;
+}
+
+.reset-button button {
+  box-sizing: border-box;
+  margin-top: 10px;
+  padding: 8px 30px 10px 30px;
+  height: fit-content;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: white;
+  background-color: #a9899b;
+  border: none;
+  border-radius: 10px;
+}
+
+.reset-button button:hover {
+  background-color: #a56f8e;
+}
+
+/* container boxes for h2 section headings */
+.heading-box {
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 0px 20px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0px 30px 30px 30px;
+}
+
+/* circle for tooltip anchor link thingy */
+
+.circle {
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 50%;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: #a9899b;
+  color: black;
+  text-align: center;
+}
+
+.circle:hover {
+  box-shadow: 7px 7px 5px #100d0f;
+  background-color: #a56f8e;
+  color: white;
+  cursor: pointer;
+}
+
+/* base styles for add-on description tables ------------------------------------------------------- */
+.article-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  box-sizing: border-box;
+}
+
+.article-body {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 600px;
+  gap: 25px;
+}
+
+td {
+  padding-right: 8px;
+}
+
+.addon-table {
+  margin: 20px;
+  width: 80%;
+}
+
+.addon-table td::first-line {
+  font-weight: 500;
+}
+
+.brown-icon img {
+  background-color: rgb(95, 75, 60);
+}
+
+.yellow-icon img {
+  background-color: rgb(195, 164, 73);
+}
+
+.green-icon img {
+  background-color: rgb(72, 129, 55);
+}
+
+.purple-icon img {
+  background-color: rgb(109, 57, 125);
+}
+
+.pink-icon img {
+  background-color: rgb(187, 46, 77);
+}
+
+.addon-table img {
+  height: 60px;
+  width: auto;
+  border: 3px solid black;
+}
+
+footer {
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-top: 60px;
+  padding: 10px 0px;
+  width: 70%;
+  max-width: 800px;
+  min-width: 450px;
+}
+
+.footer-container {
+  justify-self: center;
+  width: 90%;
+  text-align: left;
+  max-width: fit-content;
+}
+
+.footer-container p {
+  margin: 10px 0px;
+}
+
+footer a {
+  color: #d0b4c4;
+}
